@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "avaritia_lp:crystal_matrix_ingot"
+    },
+    "1": {
+      "item": "avaritia_lp:crystal_matrix_ingot"
+    },
+    "3": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "avaritia_lp:crystal_hoe",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "avaritia_lp:block/iinftybox"
+    },
+    "facing=east": {
+      "model": "avaritia_lp:block/iinftybox",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "avaritia_lp:block/iinftybox",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "avaritia_lp:block/iinftybox",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "avaritia_lp:pileof_neutrons"
+    },
+    {
+      "item": "avaritia_lp:pileof_neutrons"
+    },
+    {
+      "item": "avaritia_lp:pileof_neutrons"
+    },
+    {
+      "item": "avaritia_lp:pileof_neutrons"
+    },
+    {
+      "item": "avaritia_lp:pileof_neutrons"
+    },
+    {
+      "item": "avaritia_lp:pileof_neutrons"
+    },
+    {
+      "item": "avaritia_lp:pileof_neutrons"
+    },
+    {
+      "item": "avaritia_lp:pileof_neutrons"
+    },
+    {
+      "item": "avaritia_lp:pileof_neutrons"
+    }
+  ],
+  "result": {
+    "item": "avaritia_lp:neutronium_nugget",
+    "count": 1
+  }
+}
