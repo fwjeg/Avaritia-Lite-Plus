@@ -1,8 +1,0 @@
-{
-  "parent": "avaritia_lp:custom/compressed_chest",
-  "textures": {
-    "all": "avaritia_lp:blocks/compressor_chest_break",
-    "particle": "avaritia_lp:blocks/compressor_chest_break",
-    "texture": "avaritia_lp:blocks/compressor_chest"
-  }
-}
