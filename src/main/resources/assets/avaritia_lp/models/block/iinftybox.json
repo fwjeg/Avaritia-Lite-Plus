@@ -1,0 +1,8 @@
+{
+  "parent": "avaritia_lp:custom/infinity_chest",
+  "textures": {
+    "all": "avaritia_lp:blocks/infinity_chest_break",
+    "particle": "avaritia_lp:blocks/infinity_chest_break",
+    "texture": "avaritia_lp:blocks/1145"
+  }
+}

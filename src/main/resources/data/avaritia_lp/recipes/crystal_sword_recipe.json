@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "avaritia_lp:crystal_matrix_ingot"
+    },
+    "1": {
+      "item": "avaritia_lp:crystal_matrix_ingot"
+    },
+    "2": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "avaritia_lp:crystal_sword",
+    "count": 1
+  }
+}

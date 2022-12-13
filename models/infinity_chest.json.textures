@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "texture": "1145"
+      },
+      "name": "default"
+    },
+    "particle": {
+      "map": {
+        "texture": "infinity_chest_break"
+      },
+      "name": "particle"
+    }
+  }
+}

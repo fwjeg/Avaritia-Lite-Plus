@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="Not specified"
+
+[[mods]]
+modId="avaritia_lp"
+version="1.6.3"
+displayName="Avaritia Lite Plus"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="Bullfighter, MCreator,Fwjeg"
+
+[[dependencies.avaritia_lp]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.avaritia_lp]]
+    modId="just_enough_items"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

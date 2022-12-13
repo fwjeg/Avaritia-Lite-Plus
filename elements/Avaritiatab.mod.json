@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "无尽贪婪",
+    "icon": {
+      "value": "CUSTOM:InfinityCatalyst"
+    },
+    "showSearch": true
+  }
+}

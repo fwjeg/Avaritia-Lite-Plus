@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "avaritia_lp:compressed_crafting_table"
+    },
+    {
+      "item": "avaritia_lp:compressed_crafting_table"
+    },
+    {
+      "item": "avaritia_lp:compressed_crafting_table"
+    },
+    {
+      "item": "avaritia_lp:compressed_crafting_table"
+    },
+    {
+      "item": "avaritia_lp:compressed_crafting_table"
+    },
+    {
+      "item": "avaritia_lp:compressed_crafting_table"
+    },
+    {
+      "item": "avaritia_lp:compressed_crafting_table"
+    },
+    {
+      "item": "avaritia_lp:compressed_crafting_table"
+    },
+    {
+      "item": "avaritia_lp:compressed_crafting_table"
+    }
+  ],
+  "result": {
+    "item": "avaritia_lp:double_compressed_crafting_table",
+    "count": 1
+  }
+}
