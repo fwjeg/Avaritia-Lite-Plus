@@ -22,7 +22,10 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.bullfighter.fwjeg.avaritia.procedures.NeutroniumCompressorGuiTickProcedure;
+import net.bullfighter.fwjeg.avaritia.procedures.NccloseProcedure;
+import net.bullfighter.fwjeg.avaritia.network.NeutroniumCompressorGuiSlotMessage;
 import net.bullfighter.fwjeg.avaritia.init.AvaritiaLpModMenus;
+import net.bullfighter.fwjeg.avaritia.AvaritiaLpMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -42,7 +45,7 @@ public class NeutroniumCompressorGuiMenu extends AbstractContainerMenu implement
 		super(AvaritiaLpModMenus.NEUTRONIUM_COMPRESSOR_GUI, id);
 		this.entity = inv.player;
 		this.world = inv.player.level;
-		this.internal = new ItemStackHandler(2);
+		this.internal = new ItemStackHandler(4);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -81,8 +84,35 @@ public class NeutroniumCompressorGuiMenu extends AbstractContainerMenu implement
 			}
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 61, 26) {
+			@Override
+			public void setChanged() {
+				super.setChanged();
+				slotChanged(0, 0, 0);
+			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 97, 26) {
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 26, 26) {
+			@Override
+			public boolean mayPickup(Player player) {
+				return false;
+			}
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 135, 26) {
+			@Override
+			public boolean mayPickup(Player player) {
+				return false;
+			}
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
@@ -107,18 +137,18 @@ public class NeutroniumCompressorGuiMenu extends AbstractContainerMenu implement
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 2) {
-				if (!this.moveItemStackTo(itemstack1, 2, this.slots.size(), true)) {
+			if (index < 4) {
+				if (!this.moveItemStackTo(itemstack1, 4, this.slots.size(), true)) {
 					return ItemStack.EMPTY;
 				}
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 2, false)) {
-				if (index < 2 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 2 + 27, this.slots.size(), true)) {
+			} else if (!this.moveItemStackTo(itemstack1, 0, 4, false)) {
+				if (index < 4 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 4 + 27, this.slots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 2, 2 + 27, false)) {
+					if (!this.moveItemStackTo(itemstack1, 4, 4 + 27, false)) {
 						return ItemStack.EMPTY;
 					}
 				}
@@ -216,16 +246,33 @@ public class NeutroniumCompressorGuiMenu extends AbstractContainerMenu implement
 	@Override
 	public void removed(Player playerIn) {
 		super.removed(playerIn);
+
+		NccloseProcedure.execute(entity);
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
 				for (int j = 0; j < internal.getSlots(); ++j) {
+					if (j == 2)
+						continue;
+					if (j == 3)
+						continue;
 					playerIn.drop(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 				}
 			} else {
 				for (int i = 0; i < internal.getSlots(); ++i) {
+					if (i == 2)
+						continue;
+					if (i == 3)
+						continue;
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}
 			}
+		}
+	}
+
+	private void slotChanged(int slotid, int ctype, int meta) {
+		if (this.world != null && this.world.isClientSide()) {
+			AvaritiaLpMod.PACKET_HANDLER.sendToServer(new NeutroniumCompressorGuiSlotMessage(slotid, x, y, z, ctype, meta));
+			NeutroniumCompressorGuiSlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 		}
 	}
 

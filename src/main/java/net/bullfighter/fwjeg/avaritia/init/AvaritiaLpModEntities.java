@@ -26,16 +26,13 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class AvaritiaLpModEntities {
 	private static final List<EntityType<?>> REGISTRY = new ArrayList<>();
+	public static final EntityType<EndestPearlEntity> ENDEST_PEARL = register("projectile_endest_pearl",
+			EntityType.Builder.<EndestPearlEntity>of(EndestPearlEntity::new, MobCategory.MISC).setCustomClientFactory(EndestPearlEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final EntityType<LongbowoftheHeavensEntity> LONGBOWOFTHE_HEAVENS = register("projectile_longbowofthe_heavens",
 			EntityType.Builder.<LongbowoftheHeavensEntity>of(LongbowoftheHeavensEntity::new, MobCategory.MISC)
 					.setCustomClientFactory(LongbowoftheHeavensEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final EntityType<EndestPearlEntity> ENDEST_PEARL = register("projectile_endest_pearl",
-			EntityType.Builder.<EndestPearlEntity>of(EndestPearlEntity::new, MobCategory.MISC).setCustomClientFactory(EndestPearlEntity::new)
-					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final EntityType<BlackHoleEntity> BLACK_HOLE = register("black_hole",
-			EntityType.Builder.<BlackHoleEntity>of(BlackHoleEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
-					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlackHoleEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final EntityType<CrossbowOfTheInfernoEntity> CROSSBOW_OF_THE_INFERNO = register("projectile_crossbow_of_the_inferno",
 			EntityType.Builder.<CrossbowOfTheInfernoEntity>of(CrossbowOfTheInfernoEntity::new, MobCategory.MISC)
 					.setCustomClientFactory(CrossbowOfTheInfernoEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
@@ -44,6 +41,9 @@ public class AvaritiaLpModEntities {
 			EntityType.Builder.<SpaceTimeRipperEntity>of(SpaceTimeRipperEntity::new, MobCategory.MISC)
 					.setCustomClientFactory(SpaceTimeRipperEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<BlackHoleEntity> BLACK_HOLE = register("black_hole",
+			EntityType.Builder.<BlackHoleEntity>of(BlackHoleEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlackHoleEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);

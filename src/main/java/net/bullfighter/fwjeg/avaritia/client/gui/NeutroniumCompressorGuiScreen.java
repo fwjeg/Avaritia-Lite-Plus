@@ -49,6 +49,13 @@ public class NeutroniumCompressorGuiScreen extends AbstractContainerScreen<Neutr
 		RenderSystem.defaultBlendFunc();
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("avaritia_lp:textures/ping_mu_jie_tu__2022-12-15_104446.png"));
+		this.blit(ms, this.leftPos + 8, this.topPos + 12, 0, 0, 47, 51, 47, 51);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("avaritia_lp:textures/ping_mu_jie_tu__2022-12-15_104446.png"));
+		this.blit(ms, this.leftPos + 120, this.topPos + 11, 0, 0, 47, 51, 47, 51);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -68,7 +75,7 @@ public class NeutroniumCompressorGuiScreen extends AbstractContainerScreen<Neutr
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Neutronium Compressor", 33, 7, -12829636);
+		this.font.draw(poseStack, "\u4E2D\u5B50\u6001\u7D20\u538B\u7F29\u673A", 47, 7, -12829636);
 		this.font.draw(poseStack, "" + (new Object() {
 			public double getValue(BlockPos pos, String tag) {
 				BlockEntity BlockEntity = world.getBlockEntity(pos);
@@ -77,15 +84,9 @@ public class NeutroniumCompressorGuiScreen extends AbstractContainerScreen<Neutr
 				return 0;
 			}
 		}.getValue(new BlockPos((int) x, (int) y, (int) z), "process")) + "/"
-				+ (int) (AvaritiaLpModVariables.MapVariables.get(world).MaxCompressorResources) + "", 60, 43, -12829636);
-		this.font.draw(poseStack, "Material: " + (new Object() {
-			public String getValue(BlockPos pos, String tag) {
-				BlockEntity BlockEntity = world.getBlockEntity(pos);
-				if (BlockEntity != null)
-					return BlockEntity.getTileData().getString(tag);
-				return "";
-			}
-		}.getValue(new BlockPos((int) x, (int) y, (int) z), "material")) + "", 60, 52, -12829636);
+				+ (int) (AvaritiaLpModVariables.MapVariables.get(world).MaxCompressorResources) + "", 54, 43, -12829636);
+		this.font.draw(poseStack, "\u8F93\u5165:", 9, 14, -12829636);
+		this.font.draw(poseStack, "\u8F93\u51FA:", 126, 13, -12829636);
 	}
 
 	@Override

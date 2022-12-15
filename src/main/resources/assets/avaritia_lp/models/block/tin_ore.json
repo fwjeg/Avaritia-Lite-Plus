@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "avaritia_lp:blocks/tin_ore",
+    "particle": "avaritia_lp:blocks/tin_ore"
+  }
+}

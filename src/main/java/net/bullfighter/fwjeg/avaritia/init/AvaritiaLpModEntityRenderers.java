@@ -17,10 +17,10 @@ import net.bullfighter.fwjeg.avaritia.client.renderer.BlackHoleRenderer;
 public class AvaritiaLpModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(AvaritiaLpModEntities.LONGBOWOFTHE_HEAVENS, ThrownItemRenderer::new);
 		event.registerEntityRenderer(AvaritiaLpModEntities.ENDEST_PEARL, ThrownItemRenderer::new);
-		event.registerEntityRenderer(AvaritiaLpModEntities.BLACK_HOLE, BlackHoleRenderer::new);
+		event.registerEntityRenderer(AvaritiaLpModEntities.LONGBOWOFTHE_HEAVENS, ThrownItemRenderer::new);
 		event.registerEntityRenderer(AvaritiaLpModEntities.CROSSBOW_OF_THE_INFERNO, ThrownItemRenderer::new);
 		event.registerEntityRenderer(AvaritiaLpModEntities.SPACE_TIME_RIPPER, ThrownItemRenderer::new);
+		event.registerEntityRenderer(AvaritiaLpModEntities.BLACK_HOLE, BlackHoleRenderer::new);
 	}
 }

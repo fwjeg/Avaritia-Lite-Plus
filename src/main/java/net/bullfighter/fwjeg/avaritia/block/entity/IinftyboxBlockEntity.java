@@ -102,7 +102,7 @@ public class IinftyboxBlockEntity extends RandomizableContainerBlockEntity imple
 
 	@Override
 	public Component getDisplayName() {
-		return new TextComponent("§c无尽箱子");
+		return new TextComponent("§c§k无尽箱子");
 	}
 
 	@Override

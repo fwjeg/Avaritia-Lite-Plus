@@ -3,8 +3,8 @@
   "_type": "gamerule",
   "definition": {
     "type": "Logic",
-    "displayName": "Allow breacks bedrock with World Breacker",
-    "description": "Allow breacks bedrock with World Breacker",
+    "displayName": "世界崩解之稿能否破坏基岩",
+    "description": "默认可以",
     "category": "PLAYER",
     "defaultValueLogic": true,
     "defaultValueNumber": 0

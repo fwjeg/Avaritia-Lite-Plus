@@ -38,6 +38,7 @@ import net.minecraft.core.BlockPos;
 
 import net.bullfighter.fwjeg.avaritia.world.inventory.NeutroniumCompressorGuiMenu;
 import net.bullfighter.fwjeg.avaritia.procedures.NeutroniumCompressorClickProcedure;
+import net.bullfighter.fwjeg.avaritia.init.AvaritiaLpModBlocks;
 import net.bullfighter.fwjeg.avaritia.block.entity.NeutroniumCompressorBlockEntity;
 
 import java.util.List;
@@ -93,7 +94,7 @@ public class NeutroniumCompressorBlock extends Block
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(AvaritiaLpModBlocks.NEUTRONIUM_COMPRESSOR));
 	}
 
 	@Override
@@ -103,7 +104,7 @@ public class NeutroniumCompressorBlock extends Block
 			NetworkHooks.openGui(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return new TextComponent("中子态压缩机");
+					return new TextComponent("中子态素压缩机");
 				}
 
 				@Override

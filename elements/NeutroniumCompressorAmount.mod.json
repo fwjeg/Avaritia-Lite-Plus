@@ -3,8 +3,8 @@
   "_type": "gamerule",
   "definition": {
     "type": "Number",
-    "displayName": "Neutronium Compressor Material Amount",
-    "description": "Number of resources for Neutronium Compressor",
+    "displayName": "压缩机材料",
+    "description": "压缩机所需材料个数",
     "category": "MISC",
     "defaultValueLogic": false,
     "defaultValueNumber": 1000

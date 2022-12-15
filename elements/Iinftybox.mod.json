@@ -32,8 +32,11 @@
         "subtract": false
       }
     ],
-    "name": "§c无尽箱子",
-    "specialInfo": [],
+    "name": "§c§k无尽箱子",
+    "specialInfo": [
+      "§c有bug",
+      "别合成。"
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,

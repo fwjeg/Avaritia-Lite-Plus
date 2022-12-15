@@ -25,6 +25,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
@@ -62,6 +63,13 @@ public class IinftyboxBlock extends Block
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 		setRegistryName("iinftybox");
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
+		list.add(new TextComponent("\u00A7c\u6709bug"));
+		list.add(new TextComponent("\u522B\u5408\u6210\u3002"));
 	}
 
 	@Override
@@ -124,7 +132,7 @@ public class IinftyboxBlock extends Block
 			NetworkHooks.openGui(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return new TextComponent("§c无尽箱子");
+					return new TextComponent("§c§k无尽箱子");
 				}
 
 				@Override

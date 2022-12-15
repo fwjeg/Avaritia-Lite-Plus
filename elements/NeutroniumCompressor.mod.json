@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "中子态压缩机",
+    "name": "中子态素压缩机",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:NeutroniumCompressor"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -107,14 +107,19 @@
     "hasInventory": true,
     "guiBoundTo": "NeutroniumCompressorGui",
     "openGUIOnRightClick": true,
-    "inventorySize": 2,
+    "inventorySize": 4,
     "inventoryStackSize": 1000,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [
-      1
+      1,
+      2,
+      3
     ],
-    "inventoryInSlotIDs": [],
+    "inventoryInSlotIDs": [
+      2,
+      3
+    ],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,
