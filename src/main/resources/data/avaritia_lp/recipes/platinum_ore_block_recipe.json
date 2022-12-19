@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "avaritia_lp:platinum_dust"
+    },
+    "1": {
+      "item": "avaritia_lp:platinum_dust"
+    },
+    "2": {
+      "item": "avaritia_lp:platinum_dust"
+    },
+    "3": {
+      "item": "avaritia_lp:platinum_dust"
+    },
+    "4": {
+      "item": "avaritia_lp:platinum_dust"
+    },
+    "5": {
+      "item": "avaritia_lp:platinum_dust"
+    },
+    "6": {
+      "item": "avaritia_lp:platinum_dust"
+    },
+    "7": {
+      "item": "avaritia_lp:platinum_dust"
+    },
+    "8": {
+      "item": "avaritia_lp:platinum_dust"
+    }
+  },
+  "result": {
+    "item": "avaritia_lp:platinum_block",
+    "count": 1
+  }
+}

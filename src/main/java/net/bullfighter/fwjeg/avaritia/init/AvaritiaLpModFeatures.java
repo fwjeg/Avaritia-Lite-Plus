@@ -17,6 +17,12 @@ import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.Registry;
 
 import net.bullfighter.fwjeg.avaritia.world.features.ores.TinOreFeature;
+import net.bullfighter.fwjeg.avaritia.world.features.ores.SilverOreFeature;
+import net.bullfighter.fwjeg.avaritia.world.features.ores.PlatinumOreFeature;
+import net.bullfighter.fwjeg.avaritia.world.features.ores.NickelOreFeature;
+import net.bullfighter.fwjeg.avaritia.world.features.ores.LeadOreFeature;
+import net.bullfighter.fwjeg.avaritia.world.features.ores.IridiumOreFeature;
+import net.bullfighter.fwjeg.avaritia.world.features.ores.FluxedOreFeature;
 
 import java.util.Set;
 import java.util.Map;
@@ -28,6 +34,18 @@ public class AvaritiaLpModFeatures {
 	static {
 		REGISTRY.put(TinOreFeature.FEATURE,
 				new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, TinOreFeature.GENERATE_BIOMES, TinOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(LeadOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, LeadOreFeature.GENERATE_BIOMES,
+				LeadOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(SilverOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, SilverOreFeature.GENERATE_BIOMES,
+				SilverOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(FluxedOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, FluxedOreFeature.GENERATE_BIOMES,
+				FluxedOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(PlatinumOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				PlatinumOreFeature.GENERATE_BIOMES, PlatinumOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(IridiumOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, IridiumOreFeature.GENERATE_BIOMES,
+				IridiumOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(NickelOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, NickelOreFeature.GENERATE_BIOMES,
+				NickelOreFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

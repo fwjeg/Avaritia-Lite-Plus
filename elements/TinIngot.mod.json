@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "tin_ingot",
+    "texture": "448955",
     "customModelName": "Normal",
-    "name": "§7锡锭",
+    "name": "锡锭",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:ORES"
     },
     "stackSize": 64,
     "enchantability": 0,

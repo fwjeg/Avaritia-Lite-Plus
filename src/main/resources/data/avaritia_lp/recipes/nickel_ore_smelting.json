@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "avaritia_lp:nickel_ore"
+  },
+  "result": {
+    "item": "avaritia_lp:nickel"
+  }
+}

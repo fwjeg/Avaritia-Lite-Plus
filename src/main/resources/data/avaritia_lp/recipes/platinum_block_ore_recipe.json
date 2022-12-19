@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "avaritia_lp:platinum_block"
+    }
+  ],
+  "result": {
+    "item": "avaritia_lp:platinum_dust",
+    "count": 9
+  }
+}

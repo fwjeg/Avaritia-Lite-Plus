@@ -3,16 +3,22 @@ package net.bullfighter.fwjeg.avaritia.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
 
 import net.bullfighter.fwjeg.avaritia.procedures.SwordoftheCosmosKillProcedure;
 import net.bullfighter.fwjeg.avaritia.procedures.MendProcedure;
 import net.bullfighter.fwjeg.avaritia.init.AvaritiaLpModTabs;
+
+import java.util.List;
+import net.mcreator.avaritia_lp.util.Color1;
 
 public class SwordoftheCosmosItem extends SwordItem {
 	public SwordoftheCosmosItem() {
@@ -26,7 +32,7 @@ public class SwordoftheCosmosItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 99997f;
+				return 99998f;
 			}
 
 			public int getLevel() {
@@ -54,6 +60,12 @@ public class SwordoftheCosmosItem extends SwordItem {
 
 		SwordoftheCosmosKillProcedure.execute(entity);
 		return retval;
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
+		list.add(new StringTextComponent(Color1.zzssb2("INFINITY伤害")));
 	}
 
 	@Override

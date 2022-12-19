@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "avaritia_lp:nickel"
+    },
+    "1": {
+      "item": "avaritia_lp:nickel"
+    },
+    "2": {
+      "item": "avaritia_lp:nickel"
+    },
+    "3": {
+      "item": "avaritia_lp:nickel"
+    },
+    "4": {
+      "item": "avaritia_lp:nickel"
+    },
+    "5": {
+      "item": "avaritia_lp:nickel"
+    },
+    "6": {
+      "item": "avaritia_lp:nickel"
+    },
+    "7": {
+      "item": "avaritia_lp:nickel"
+    },
+    "8": {
+      "item": "avaritia_lp:nickel"
+    }
+  },
+  "result": {
+    "item": "avaritia_lp:nickel_block",
+    "count": 1
+  }
+}

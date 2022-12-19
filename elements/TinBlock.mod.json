@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Avaritiatab"
+      "value": "CUSTOM:ORES"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

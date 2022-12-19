@@ -354,6 +354,180 @@ public class NeutroniumCompressorGuiTickProcedure {
 					((Slot) _slots.get(1)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
+			} else if ((new Object() {
+				public String getValue(LevelAccessor world, BlockPos pos, String tag) {
+					BlockEntity blockEntity = world.getBlockEntity(pos);
+					if (blockEntity != null)
+						return blockEntity.getTileData().getString(tag);
+					return "";
+				}
+			}.getValue(world,
+					new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz),
+					"material")).equals("Lead")) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(AvaritiaLpModItems.LEAD_SINGULARITY);
+					_setstack.setCount((int) (new Object() {
+						public int getAmount(int sltid) {
+							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+									&& _current.get() instanceof Map _slots) {
+								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+								if (stack != null)
+									return stack.getCount();
+							}
+							return 0;
+						}
+					}.getAmount(1) + 1));
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if ((new Object() {
+				public String getValue(LevelAccessor world, BlockPos pos, String tag) {
+					BlockEntity blockEntity = world.getBlockEntity(pos);
+					if (blockEntity != null)
+						return blockEntity.getTileData().getString(tag);
+					return "";
+				}
+			}.getValue(world,
+					new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz),
+					"material")).equals("Silver")) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(AvaritiaLpModItems.SILVER_SINGULARITY);
+					_setstack.setCount((int) (new Object() {
+						public int getAmount(int sltid) {
+							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+									&& _current.get() instanceof Map _slots) {
+								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+								if (stack != null)
+									return stack.getCount();
+							}
+							return 0;
+						}
+					}.getAmount(1) + 1));
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if ((new Object() {
+				public String getValue(LevelAccessor world, BlockPos pos, String tag) {
+					BlockEntity blockEntity = world.getBlockEntity(pos);
+					if (blockEntity != null)
+						return blockEntity.getTileData().getString(tag);
+					return "";
+				}
+			}.getValue(world,
+					new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz),
+					"material")).equals("Nickel")) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(AvaritiaLpModItems.NICKEL_SINGULARITY);
+					_setstack.setCount((int) (new Object() {
+						public int getAmount(int sltid) {
+							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+									&& _current.get() instanceof Map _slots) {
+								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+								if (stack != null)
+									return stack.getCount();
+							}
+							return 0;
+						}
+					}.getAmount(1) + 1));
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if ((new Object() {
+				public String getValue(LevelAccessor world, BlockPos pos, String tag) {
+					BlockEntity blockEntity = world.getBlockEntity(pos);
+					if (blockEntity != null)
+						return blockEntity.getTileData().getString(tag);
+					return "";
+				}
+			}.getValue(world,
+					new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz),
+					"material")).equals("Fluxed")) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(AvaritiaLpModItems.FLUXED_SINGULARITY);
+					_setstack.setCount((int) (new Object() {
+						public int getAmount(int sltid) {
+							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+									&& _current.get() instanceof Map _slots) {
+								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+								if (stack != null)
+									return stack.getCount();
+							}
+							return 0;
+						}
+					}.getAmount(1) + 1));
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if ((new Object() {
+				public String getValue(LevelAccessor world, BlockPos pos, String tag) {
+					BlockEntity blockEntity = world.getBlockEntity(pos);
+					if (blockEntity != null)
+						return blockEntity.getTileData().getString(tag);
+					return "";
+				}
+			}.getValue(world,
+					new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz),
+					"material")).equals("Platinum")) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(AvaritiaLpModItems.PLATINUM_SINGULARITY);
+					_setstack.setCount((int) (new Object() {
+						public int getAmount(int sltid) {
+							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+									&& _current.get() instanceof Map _slots) {
+								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+								if (stack != null)
+									return stack.getCount();
+							}
+							return 0;
+						}
+					}.getAmount(1) + 1));
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if ((new Object() {
+				public String getValue(LevelAccessor world, BlockPos pos, String tag) {
+					BlockEntity blockEntity = world.getBlockEntity(pos);
+					if (blockEntity != null)
+						return blockEntity.getTileData().getString(tag);
+					return "";
+				}
+			}.getValue(world,
+					new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz),
+					"material")).equals("Iridium")) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(AvaritiaLpModItems.IRIDIUM_SINGULARITY);
+					_setstack.setCount((int) (new Object() {
+						public int getAmount(int sltid) {
+							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+									&& _current.get() instanceof Map _slots) {
+								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+								if (stack != null)
+									return stack.getCount();
+							}
+							return 0;
+						}
+					}.getAmount(1) + 1));
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
 			}
 			if (!world.isClientSide()) {
 				BlockPos _bp = new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
@@ -1172,6 +1346,456 @@ public class NeutroniumCompressorGuiTickProcedure {
 					BlockState _bs = world.getBlockState(_bp);
 					if (_blockEntity != null)
 						_blockEntity.getTileData().putString("material", "Amethyst");
+					if (world instanceof Level _level)
+						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+				}
+				if (!world.isClientSide()) {
+					BlockPos _bp = new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz);
+					BlockEntity _blockEntity = world.getBlockEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_blockEntity != null)
+						_blockEntity.getTileData().putDouble("process", (new Object() {
+							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+								BlockEntity blockEntity = world.getBlockEntity(pos);
+								if (blockEntity != null)
+									return blockEntity.getTileData().getDouble(tag);
+								return -1;
+							}
+						}.getValue(world,
+								new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+										(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+										(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz),
+								"process") + new Object() {
+									public int getAmount(int sltid) {
+										if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+												&& _current.get() instanceof Map _slots) {
+											ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+											if (stack != null)
+												return stack.getCount();
+										}
+										return 0;
+									}
+								}.getAmount(0)));
+					if (world instanceof Level _level)
+						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+				}
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get() instanceof Map _slots) {
+					((Slot) _slots.get(0)).remove(new Object() {
+						public int getAmount(int sltid) {
+							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+									&& _current.get() instanceof Map _slots) {
+								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+								if (stack != null)
+									return stack.getCount();
+							}
+							return 0;
+						}
+					}.getAmount(0));
+					_player.containerMenu.broadcastChanges();
+				}
+			}
+		}
+		if ((new Object() {
+			public String getValue(LevelAccessor world, BlockPos pos, String tag) {
+				BlockEntity blockEntity = world.getBlockEntity(pos);
+				if (blockEntity != null)
+					return blockEntity.getTileData().getString(tag);
+				return "";
+			}
+		}.getValue(world,
+				new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+						(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+						(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz),
+				"material")).equals("Lead") || true) {
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+					.getItem() == AvaritiaLpModBlocks.LEAD_BLOCK.asItem()) {
+				if (!world.isClientSide()) {
+					BlockPos _bp = new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz);
+					BlockEntity _blockEntity = world.getBlockEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_blockEntity != null)
+						_blockEntity.getTileData().putString("material", "Lead");
+					if (world instanceof Level _level)
+						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+				}
+				if (!world.isClientSide()) {
+					BlockPos _bp = new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz);
+					BlockEntity _blockEntity = world.getBlockEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_blockEntity != null)
+						_blockEntity.getTileData().putDouble("process", (new Object() {
+							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+								BlockEntity blockEntity = world.getBlockEntity(pos);
+								if (blockEntity != null)
+									return blockEntity.getTileData().getDouble(tag);
+								return -1;
+							}
+						}.getValue(world,
+								new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+										(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+										(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz),
+								"process") + new Object() {
+									public int getAmount(int sltid) {
+										if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+												&& _current.get() instanceof Map _slots) {
+											ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+											if (stack != null)
+												return stack.getCount();
+										}
+										return 0;
+									}
+								}.getAmount(0)));
+					if (world instanceof Level _level)
+						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+				}
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get() instanceof Map _slots) {
+					((Slot) _slots.get(0)).remove(new Object() {
+						public int getAmount(int sltid) {
+							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+									&& _current.get() instanceof Map _slots) {
+								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+								if (stack != null)
+									return stack.getCount();
+							}
+							return 0;
+						}
+					}.getAmount(0));
+					_player.containerMenu.broadcastChanges();
+				}
+			}
+		}
+		if ((new Object() {
+			public String getValue(LevelAccessor world, BlockPos pos, String tag) {
+				BlockEntity blockEntity = world.getBlockEntity(pos);
+				if (blockEntity != null)
+					return blockEntity.getTileData().getString(tag);
+				return "";
+			}
+		}.getValue(world,
+				new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+						(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+						(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz),
+				"material")).equals("Silver") || true) {
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+					.getItem() == AvaritiaLpModBlocks.SILVER_BLOCK.asItem()) {
+				if (!world.isClientSide()) {
+					BlockPos _bp = new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz);
+					BlockEntity _blockEntity = world.getBlockEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_blockEntity != null)
+						_blockEntity.getTileData().putString("material", "Silver");
+					if (world instanceof Level _level)
+						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+				}
+				if (!world.isClientSide()) {
+					BlockPos _bp = new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz);
+					BlockEntity _blockEntity = world.getBlockEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_blockEntity != null)
+						_blockEntity.getTileData().putDouble("process", (new Object() {
+							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+								BlockEntity blockEntity = world.getBlockEntity(pos);
+								if (blockEntity != null)
+									return blockEntity.getTileData().getDouble(tag);
+								return -1;
+							}
+						}.getValue(world,
+								new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+										(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+										(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz),
+								"process") + new Object() {
+									public int getAmount(int sltid) {
+										if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+												&& _current.get() instanceof Map _slots) {
+											ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+											if (stack != null)
+												return stack.getCount();
+										}
+										return 0;
+									}
+								}.getAmount(0)));
+					if (world instanceof Level _level)
+						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+				}
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get() instanceof Map _slots) {
+					((Slot) _slots.get(0)).remove(new Object() {
+						public int getAmount(int sltid) {
+							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+									&& _current.get() instanceof Map _slots) {
+								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+								if (stack != null)
+									return stack.getCount();
+							}
+							return 0;
+						}
+					}.getAmount(0));
+					_player.containerMenu.broadcastChanges();
+				}
+			}
+		}
+		if ((new Object() {
+			public String getValue(LevelAccessor world, BlockPos pos, String tag) {
+				BlockEntity blockEntity = world.getBlockEntity(pos);
+				if (blockEntity != null)
+					return blockEntity.getTileData().getString(tag);
+				return "";
+			}
+		}.getValue(world,
+				new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+						(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+						(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz),
+				"material")).equals("Nickel") || true) {
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+					.getItem() == AvaritiaLpModBlocks.NICKEL_BLOCK.asItem()) {
+				if (!world.isClientSide()) {
+					BlockPos _bp = new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz);
+					BlockEntity _blockEntity = world.getBlockEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_blockEntity != null)
+						_blockEntity.getTileData().putString("material", "Nickel");
+					if (world instanceof Level _level)
+						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+				}
+				if (!world.isClientSide()) {
+					BlockPos _bp = new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz);
+					BlockEntity _blockEntity = world.getBlockEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_blockEntity != null)
+						_blockEntity.getTileData().putDouble("process", (new Object() {
+							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+								BlockEntity blockEntity = world.getBlockEntity(pos);
+								if (blockEntity != null)
+									return blockEntity.getTileData().getDouble(tag);
+								return -1;
+							}
+						}.getValue(world,
+								new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+										(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+										(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz),
+								"process") + new Object() {
+									public int getAmount(int sltid) {
+										if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+												&& _current.get() instanceof Map _slots) {
+											ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+											if (stack != null)
+												return stack.getCount();
+										}
+										return 0;
+									}
+								}.getAmount(0)));
+					if (world instanceof Level _level)
+						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+				}
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get() instanceof Map _slots) {
+					((Slot) _slots.get(0)).remove(new Object() {
+						public int getAmount(int sltid) {
+							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+									&& _current.get() instanceof Map _slots) {
+								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+								if (stack != null)
+									return stack.getCount();
+							}
+							return 0;
+						}
+					}.getAmount(0));
+					_player.containerMenu.broadcastChanges();
+				}
+			}
+		}
+		if ((new Object() {
+			public String getValue(LevelAccessor world, BlockPos pos, String tag) {
+				BlockEntity blockEntity = world.getBlockEntity(pos);
+				if (blockEntity != null)
+					return blockEntity.getTileData().getString(tag);
+				return "";
+			}
+		}.getValue(world,
+				new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+						(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+						(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz),
+				"material")).equals("Fluxed") || true) {
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+					.getItem() == AvaritiaLpModBlocks.FLUXED_BLOCK.asItem()) {
+				if (!world.isClientSide()) {
+					BlockPos _bp = new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz);
+					BlockEntity _blockEntity = world.getBlockEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_blockEntity != null)
+						_blockEntity.getTileData().putString("material", "Fluxed");
+					if (world instanceof Level _level)
+						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+				}
+				if (!world.isClientSide()) {
+					BlockPos _bp = new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz);
+					BlockEntity _blockEntity = world.getBlockEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_blockEntity != null)
+						_blockEntity.getTileData().putDouble("process", (new Object() {
+							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+								BlockEntity blockEntity = world.getBlockEntity(pos);
+								if (blockEntity != null)
+									return blockEntity.getTileData().getDouble(tag);
+								return -1;
+							}
+						}.getValue(world,
+								new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+										(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+										(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz),
+								"process") + new Object() {
+									public int getAmount(int sltid) {
+										if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+												&& _current.get() instanceof Map _slots) {
+											ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+											if (stack != null)
+												return stack.getCount();
+										}
+										return 0;
+									}
+								}.getAmount(0)));
+					if (world instanceof Level _level)
+						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+				}
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get() instanceof Map _slots) {
+					((Slot) _slots.get(0)).remove(new Object() {
+						public int getAmount(int sltid) {
+							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+									&& _current.get() instanceof Map _slots) {
+								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+								if (stack != null)
+									return stack.getCount();
+							}
+							return 0;
+						}
+					}.getAmount(0));
+					_player.containerMenu.broadcastChanges();
+				}
+			}
+		}
+		if ((new Object() {
+			public String getValue(LevelAccessor world, BlockPos pos, String tag) {
+				BlockEntity blockEntity = world.getBlockEntity(pos);
+				if (blockEntity != null)
+					return blockEntity.getTileData().getString(tag);
+				return "";
+			}
+		}.getValue(world,
+				new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+						(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+						(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz),
+				"material")).equals("Platinum") || true) {
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+					.getItem() == AvaritiaLpModBlocks.PLATINUM_BLOCK.asItem()) {
+				if (!world.isClientSide()) {
+					BlockPos _bp = new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz);
+					BlockEntity _blockEntity = world.getBlockEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_blockEntity != null)
+						_blockEntity.getTileData().putString("material", "Platinum");
+					if (world instanceof Level _level)
+						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+				}
+				if (!world.isClientSide()) {
+					BlockPos _bp = new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz);
+					BlockEntity _blockEntity = world.getBlockEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_blockEntity != null)
+						_blockEntity.getTileData().putDouble("process", (new Object() {
+							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+								BlockEntity blockEntity = world.getBlockEntity(pos);
+								if (blockEntity != null)
+									return blockEntity.getTileData().getDouble(tag);
+								return -1;
+							}
+						}.getValue(world,
+								new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+										(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+										(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz),
+								"process") + new Object() {
+									public int getAmount(int sltid) {
+										if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+												&& _current.get() instanceof Map _slots) {
+											ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+											if (stack != null)
+												return stack.getCount();
+										}
+										return 0;
+									}
+								}.getAmount(0)));
+					if (world instanceof Level _level)
+						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+				}
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get() instanceof Map _slots) {
+					((Slot) _slots.get(0)).remove(new Object() {
+						public int getAmount(int sltid) {
+							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+									&& _current.get() instanceof Map _slots) {
+								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+								if (stack != null)
+									return stack.getCount();
+							}
+							return 0;
+						}
+					}.getAmount(0));
+					_player.containerMenu.broadcastChanges();
+				}
+			}
+		}
+		if ((new Object() {
+			public String getValue(LevelAccessor world, BlockPos pos, String tag) {
+				BlockEntity blockEntity = world.getBlockEntity(pos);
+				if (blockEntity != null)
+					return blockEntity.getTileData().getString(tag);
+				return "";
+			}
+		}.getValue(world,
+				new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+						(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+						(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz),
+				"material")).equals("Iridium") || true) {
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+					.getItem() == AvaritiaLpModBlocks.IRIDIUM_BLOCK.asItem()) {
+				if (!world.isClientSide()) {
+					BlockPos _bp = new BlockPos((int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorx,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectory,
+							(int) AvaritiaLpModVariables.MapVariables.get(world).neutroniumcollectorz);
+					BlockEntity _blockEntity = world.getBlockEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_blockEntity != null)
+						_blockEntity.getTileData().putString("material", "Iridium");
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}

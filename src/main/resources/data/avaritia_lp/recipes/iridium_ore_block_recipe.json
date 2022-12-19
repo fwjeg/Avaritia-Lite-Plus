@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "avaritia_lp:iridium"
+    },
+    "1": {
+      "item": "avaritia_lp:iridium"
+    },
+    "2": {
+      "item": "avaritia_lp:iridium"
+    },
+    "3": {
+      "item": "avaritia_lp:iridium"
+    },
+    "4": {
+      "item": "avaritia_lp:iridium"
+    },
+    "5": {
+      "item": "avaritia_lp:iridium"
+    },
+    "6": {
+      "item": "avaritia_lp:iridium"
+    },
+    "7": {
+      "item": "avaritia_lp:iridium"
+    },
+    "8": {
+      "item": "avaritia_lp:iridium"
+    }
+  },
+  "result": {
+    "item": "avaritia_lp:iridium_block",
+    "count": 1
+  }
+}

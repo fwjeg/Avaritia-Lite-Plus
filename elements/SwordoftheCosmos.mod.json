@@ -6,7 +6,9 @@
     "texture": "layer_3",
     "customModelName": "Normal",
     "name": "§c寰宇支配之剑",
-    "specialInfo": [],
+    "specialInfo": [
+      "INFINITY伤害"
+    ],
     "creativeTab": {
       "value": "CUSTOM:Avaritiatab"
     },
@@ -15,7 +17,7 @@
     "efficiency": 0.0,
     "attackSpeed": 3.0,
     "enchantability": 100,
-    "damageVsEntity": 99999.0,
+    "damageVsEntity": 100000.0,
     "usageCount": 100,
     "blocksAffected": [],
     "hasGlow": false,

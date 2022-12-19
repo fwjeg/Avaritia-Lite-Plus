@@ -19,7 +19,7 @@
     {
       "name": "Avaritiatab",
       "type": "tab",
-      "sortid": 65,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avaritiatab"
@@ -27,7 +27,7 @@
     {
       "name": "DiamondLatticeRecipe",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_lattice_recipe"
@@ -43,7 +43,7 @@
     {
       "name": "CrystalMatrixIngotRecipe",
       "type": "recipe",
-      "sortid": 67,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_matrix_ingot_recipe"
@@ -59,7 +59,7 @@
     {
       "name": "NeutronCollector",
       "type": "block",
-      "sortid": 56,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutron_collector"
@@ -67,7 +67,7 @@
     {
       "name": "NeutronCollectorGui",
       "type": "gui",
-      "sortid": 68,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutron_collector_gui"
@@ -75,7 +75,7 @@
     {
       "name": "NeutronCollectorGenerator",
       "type": "procedure",
-      "sortid": 69,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutron_collector_generator",
@@ -119,7 +119,7 @@
     {
       "name": "NeutroniumNuggetRecipe",
       "type": "recipe",
-      "sortid": 70,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_nugget_recipe"
@@ -127,7 +127,7 @@
     {
       "name": "PileofNeutroniumRecipe",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pileof_neutronium_recipe"
@@ -135,7 +135,7 @@
     {
       "name": "NeutroniumNuggetRecipe2",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_nugget_recipe_2"
@@ -143,7 +143,7 @@
     {
       "name": "NeutroniumIngotRecipe",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_ingot_recipe"
@@ -167,7 +167,7 @@
     {
       "name": "RecordFragmentRecipe",
       "type": "recipe",
-      "sortid": 74,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "record_fragment_recipe"
@@ -231,7 +231,7 @@
     {
       "name": "NeutroniumCompressorGui",
       "type": "gui",
-      "sortid": 75,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_compressor_gui"
@@ -239,7 +239,7 @@
     {
       "name": "NeutroniumCompressor",
       "type": "block",
-      "sortid": 55,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_compressor"
@@ -247,7 +247,7 @@
     {
       "name": "Mend",
       "type": "procedure",
-      "sortid": 76,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mend",
@@ -263,15 +263,15 @@
     {
       "name": "SwordoftheCosmos",
       "type": "tool",
-      "sortid": 33,
+      "sortid": 35,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "swordofthe_cosmos"
     },
     {
       "name": "PlanetEater",
       "type": "tool",
-      "sortid": 34,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "planet_eater"
@@ -279,7 +279,7 @@
     {
       "name": "NaturesRuin",
       "type": "tool",
-      "sortid": 32,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natures_ruin"
@@ -287,7 +287,7 @@
     {
       "name": "HoeoftheGreenEarth",
       "type": "tool",
-      "sortid": 35,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hoeofthe_green_earth"
@@ -295,7 +295,7 @@
     {
       "name": "LongbowoftheHeavensBulletHitsBlock",
       "type": "procedure",
-      "sortid": 77,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "longbowofthe_heavens_bullet_hits_block",
@@ -323,7 +323,7 @@
     {
       "name": "LongbowoftheHeavens",
       "type": "rangeditem",
-      "sortid": 36,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "longbowofthe_heavens"
@@ -331,7 +331,7 @@
     {
       "name": "Neutroniumcollectoropen",
       "type": "procedure",
-      "sortid": 78,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutroniumcollectoropen",
@@ -359,7 +359,7 @@
     {
       "name": "NeutronCollectorGuiTick",
       "type": "procedure",
-      "sortid": 79,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutron_collector_gui_tick",
@@ -379,7 +379,7 @@
     {
       "name": "WorldBreaker",
       "type": "tool",
-      "sortid": 31,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "world_breaker"
@@ -387,7 +387,7 @@
     {
       "name": "WorldBreakerTick",
       "type": "procedure",
-      "sortid": 80,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "world_breaker_tick",
@@ -403,7 +403,7 @@
     {
       "name": "InfinityArmor",
       "type": "armor",
-      "sortid": 30,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infinity_armor",
@@ -417,7 +417,7 @@
     {
       "name": "InfinityArmorTick",
       "type": "procedure",
-      "sortid": 81,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infinity_armor_tick",
@@ -437,7 +437,7 @@
     {
       "name": "SwordoftheCosmosKill",
       "type": "procedure",
-      "sortid": 82,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "swordofthe_cosmos_kill",
@@ -453,7 +453,7 @@
     {
       "name": "SkullfireSword",
       "type": "tool",
-      "sortid": 51,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skullfire_sword"
@@ -461,7 +461,7 @@
     {
       "name": "EntityDeath",
       "type": "procedure",
-      "sortid": 83,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "entity_death",
@@ -497,7 +497,7 @@
     {
       "name": "UltimateStewEaten",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ultimate_stew_eaten",
@@ -513,7 +513,7 @@
     {
       "name": "CosmicMeatballsEaten",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cosmic_meatballs_eaten",
@@ -529,7 +529,7 @@
     {
       "name": "OpenCraftingTable",
       "type": "procedure",
-      "sortid": 86,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "open_crafting_table",
@@ -540,7 +540,7 @@
     {
       "name": "CompressedCraftingTable",
       "type": "block",
-      "sortid": 52,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "compressed_crafting_table"
@@ -548,7 +548,7 @@
     {
       "name": "DoubleCompressedCraftingTable",
       "type": "block",
-      "sortid": 53,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "double_compressed_crafting_table"
@@ -556,7 +556,7 @@
     {
       "name": "CompressedCraftingTableRecipe",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "compressed_crafting_table_recipe"
@@ -564,7 +564,7 @@
     {
       "name": "DoubleCompressedCraftingTableRecipe",
       "type": "recipe",
-      "sortid": 88,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "double_compressed_crafting_table_recipe"
@@ -572,7 +572,7 @@
     {
       "name": "CompressedCraftingTableFuel",
       "type": "fuel",
-      "sortid": 89,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "compressed_crafting_table_fuel"
@@ -580,7 +580,7 @@
     {
       "name": "DoubleCompressedCraftingTableFuel",
       "type": "fuel",
-      "sortid": 90,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "double_compressed_crafting_table_fuel"
@@ -588,7 +588,7 @@
     {
       "name": "ExtremeCraftingTable",
       "type": "block",
-      "sortid": 54,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "extreme_crafting_table"
@@ -596,7 +596,7 @@
     {
       "name": "NeutroniumBlock",
       "type": "block",
-      "sortid": 60,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_block"
@@ -604,7 +604,7 @@
     {
       "name": "InfinityBlock",
       "type": "block",
-      "sortid": 61,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infinity_block"
@@ -612,7 +612,7 @@
     {
       "name": "CrystalMatrix",
       "type": "block",
-      "sortid": 62,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_matrix"
@@ -620,7 +620,7 @@
     {
       "name": "NeutroniumBlockUncraft",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_block_uncraft"
@@ -628,7 +628,7 @@
     {
       "name": "NeutroniumBlockCraft",
       "type": "recipe",
-      "sortid": 92,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_block_craft"
@@ -636,7 +636,7 @@
     {
       "name": "InfinityBlockUncraft",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infinity_block_uncraft"
@@ -644,7 +644,7 @@
     {
       "name": "InfinityBlockCraft",
       "type": "recipe",
-      "sortid": 94,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infinity_block_craft"
@@ -652,7 +652,7 @@
     {
       "name": "CrystalMatixUncraft",
       "type": "recipe",
-      "sortid": 95,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_matix_uncraft"
@@ -660,7 +660,7 @@
     {
       "name": "CrystalMatixCraft",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_matix_craft"
@@ -668,7 +668,7 @@
     {
       "name": "NeutroniumCompressorClick",
       "type": "procedure",
-      "sortid": 97,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_compressor_click",
@@ -696,7 +696,7 @@
     {
       "name": "NeutroniumCompressorGuiTick",
       "type": "procedure",
-      "sortid": 98,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_compressor_gui_tick",
@@ -716,7 +716,7 @@
     {
       "name": "ExtremeCraftingTableRecipe",
       "type": "procedure",
-      "sortid": 99,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "extreme_crafting_table_recipe",
@@ -732,7 +732,7 @@
     {
       "name": "ExtremeCraftingTableRecipes",
       "type": "procedure",
-      "sortid": 100,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "extreme_crafting_table_recipes",
@@ -748,7 +748,7 @@
     {
       "name": "ExtremeCraftingTableRecipe2",
       "type": "procedure",
-      "sortid": 101,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "extreme_crafting_table_recipe_2",
@@ -764,7 +764,7 @@
     {
       "name": "ExtremeCraftingTableRecipe3",
       "type": "procedure",
-      "sortid": 102,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "extreme_crafting_table_recipe_3",
@@ -780,7 +780,7 @@
     {
       "name": "ExtremeCraftingTableRecipe4",
       "type": "procedure",
-      "sortid": 103,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "extreme_crafting_table_recipe_4",
@@ -796,7 +796,7 @@
     {
       "name": "ExtremeCraftingTableRecipe5",
       "type": "procedure",
-      "sortid": 104,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "extreme_crafting_table_recipe_5",
@@ -812,7 +812,7 @@
     {
       "name": "ExtremeCraftingTableRecipe6",
       "type": "procedure",
-      "sortid": 105,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "extreme_crafting_table_recipe_6",
@@ -828,7 +828,7 @@
     {
       "name": "BlackHoleTick",
       "type": "procedure",
-      "sortid": 106,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_hole_tick",
@@ -860,7 +860,7 @@
     {
       "name": "BlackHoleSpawn",
       "type": "procedure",
-      "sortid": 107,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_hole_spawn",
@@ -896,7 +896,7 @@
     {
       "name": "BlackHolePlayerCollides",
       "type": "procedure",
-      "sortid": 108,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_hole_player_collides",
@@ -912,7 +912,7 @@
     {
       "name": "FlyFixer",
       "type": "procedure",
-      "sortid": 109,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fly_fixer",
@@ -928,7 +928,7 @@
     {
       "name": "BreackBedrock",
       "type": "procedure",
-      "sortid": 110,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "breack_bedrock",
@@ -960,7 +960,7 @@
     {
       "name": "NeverGlow",
       "type": "procedure",
-      "sortid": 111,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "never_glow",
@@ -972,7 +972,7 @@
     {
       "name": "BlackHole",
       "type": "livingentity",
-      "sortid": 112,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_hole"
@@ -980,7 +980,7 @@
     {
       "name": "WorldBreakerBedrockBreak",
       "type": "gamerule",
-      "sortid": 113,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "worldBreakerBedrockBreak",
@@ -991,7 +991,7 @@
     {
       "name": "InfinityArmorHurt",
       "type": "procedure",
-      "sortid": 114,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infinity_armor_hurt",
@@ -1011,7 +1011,7 @@
     {
       "name": "NeutroniumCompressorAmount",
       "type": "gamerule",
-      "sortid": 115,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutroniumCompressorAmount",
@@ -1022,7 +1022,7 @@
     {
       "name": "MaxCompressorResources",
       "type": "procedure",
-      "sortid": 116,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "max_compressor_resources",
@@ -1054,7 +1054,7 @@
     {
       "name": "Cs2",
       "type": "gui",
-      "sortid": 117,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cs_2"
@@ -1062,7 +1062,7 @@
     {
       "name": "CrystalArmor",
       "type": "armor",
-      "sortid": 39,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_armor",
@@ -1077,7 +1077,7 @@
     {
       "name": "CrystalArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 118,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_armor_helmet_recipe",
@@ -1086,7 +1086,7 @@
     {
       "name": "CrystalArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 119,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_armor_body_recipe",
@@ -1095,7 +1095,7 @@
     {
       "name": "CrystalArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 120,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_armor_leggings_recipe",
@@ -1104,7 +1104,7 @@
     {
       "name": "CrystalArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 121,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_armor_boots_recipe",
@@ -1113,7 +1113,7 @@
     {
       "name": "NeutroniumArmor",
       "type": "armor",
-      "sortid": 45,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_armor",
@@ -1128,7 +1128,7 @@
     {
       "name": "NeutroniumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 122,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_armor_helmet_recipe",
@@ -1137,7 +1137,7 @@
     {
       "name": "NeutroniumArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 123,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_armor_body_recipe",
@@ -1146,7 +1146,7 @@
     {
       "name": "NeutroniumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 124,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_armor_leggings_recipe",
@@ -1155,7 +1155,7 @@
     {
       "name": "NeutroniumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 125,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_armor_boots_recipe",
@@ -1164,7 +1164,7 @@
     {
       "name": "CrystalPickaxe",
       "type": "tool",
-      "sortid": 40,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_pickaxe",
@@ -1173,7 +1173,7 @@
     {
       "name": "CrystalAxe",
       "type": "tool",
-      "sortid": 41,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_axe",
@@ -1182,7 +1182,7 @@
     {
       "name": "CrystalSword",
       "type": "tool",
-      "sortid": 42,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_sword",
@@ -1191,7 +1191,7 @@
     {
       "name": "CrystalShovel",
       "type": "tool",
-      "sortid": 43,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_shovel",
@@ -1200,7 +1200,7 @@
     {
       "name": "CrystalHoe",
       "type": "tool",
-      "sortid": 44,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_hoe",
@@ -1209,7 +1209,7 @@
     {
       "name": "CrystalPickaxeRecipe",
       "type": "recipe",
-      "sortid": 126,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_pickaxe_recipe",
@@ -1218,7 +1218,7 @@
     {
       "name": "CrystalAxeRecipe",
       "type": "recipe",
-      "sortid": 127,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_axe_recipe",
@@ -1227,7 +1227,7 @@
     {
       "name": "CrystalSwordRecipe",
       "type": "recipe",
-      "sortid": 128,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_sword_recipe",
@@ -1236,7 +1236,7 @@
     {
       "name": "CrystalShovelRecipe",
       "type": "recipe",
-      "sortid": 129,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_shovel_recipe",
@@ -1245,7 +1245,7 @@
     {
       "name": "CrystalHoeRecipe",
       "type": "recipe",
-      "sortid": 130,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_hoe_recipe",
@@ -1254,7 +1254,7 @@
     {
       "name": "NeutroniumPickaxe",
       "type": "tool",
-      "sortid": 46,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_pickaxe",
@@ -1263,7 +1263,7 @@
     {
       "name": "NeutroniumAxe",
       "type": "tool",
-      "sortid": 47,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_axe",
@@ -1272,7 +1272,7 @@
     {
       "name": "NeutroniumSword",
       "type": "tool",
-      "sortid": 48,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_sword",
@@ -1281,7 +1281,7 @@
     {
       "name": "NeutroniumShovel",
       "type": "tool",
-      "sortid": 49,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_shovel",
@@ -1290,7 +1290,7 @@
     {
       "name": "NeutroniumHoe",
       "type": "tool",
-      "sortid": 50,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_hoe",
@@ -1299,7 +1299,7 @@
     {
       "name": "NeutroniumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 131,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_pickaxe_recipe",
@@ -1308,7 +1308,7 @@
     {
       "name": "NeutroniumAxeRecipe",
       "type": "recipe",
-      "sortid": 132,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_axe_recipe",
@@ -1317,7 +1317,7 @@
     {
       "name": "NeutroniumSwordRecipe",
       "type": "recipe",
-      "sortid": 133,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_sword_recipe",
@@ -1326,7 +1326,7 @@
     {
       "name": "NeutroniumShovelRecipe",
       "type": "recipe",
-      "sortid": 134,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_shovel_recipe",
@@ -1335,7 +1335,7 @@
     {
       "name": "NeutroniumHoeRecipe",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_hoe_recipe",
@@ -1344,7 +1344,7 @@
     {
       "name": "Iinftybox",
       "type": "block",
-      "sortid": 64,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iinftybox"
@@ -1352,7 +1352,7 @@
     {
       "name": "Ibgui",
       "type": "gui",
-      "sortid": 136,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ibgui"
@@ -1360,7 +1360,7 @@
     {
       "name": "Cbgui",
       "type": "gui",
-      "sortid": 137,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbgui"
@@ -1368,7 +1368,7 @@
     {
       "name": "Inftyboxcafting",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "inftyboxcafting"
@@ -1376,7 +1376,7 @@
     {
       "name": "Bbox2",
       "type": "block",
-      "sortid": 63,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bbox_2"
@@ -1384,7 +1384,7 @@
     {
       "name": "DoubleNeutroncollector",
       "type": "block",
-      "sortid": 57,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "double_neutroncollector"
@@ -1392,7 +1392,7 @@
     {
       "name": "TripleNeutroncollector",
       "type": "block",
-      "sortid": 58,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "triple_neutroncollector"
@@ -1400,7 +1400,7 @@
     {
       "name": "QuadNeutroncollector",
       "type": "block",
-      "sortid": 59,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quad_neutroncollector"
@@ -1408,7 +1408,7 @@
     {
       "name": "DoubleNeutroncollectorgui",
       "type": "gui",
-      "sortid": 139,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "double_neutroncollectorgui"
@@ -1416,7 +1416,7 @@
     {
       "name": "DoubleNeutroncollectorTick",
       "type": "procedure",
-      "sortid": 140,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "double_neutroncollector_tick",
@@ -1444,7 +1444,7 @@
     {
       "name": "NeutroniumGearCrafting",
       "type": "recipe",
-      "sortid": 141,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutronium_gear_crafting"
@@ -1452,7 +1452,7 @@
     {
       "name": "BbCrafting",
       "type": "recipe",
-      "sortid": 142,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bb_crafting"
@@ -1460,7 +1460,7 @@
     {
       "name": "ExtremeCraftingTableRecipe7",
       "type": "procedure",
-      "sortid": 143,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "extreme_crafting_table_recipe_7",
@@ -1484,7 +1484,7 @@
     {
       "name": "InfinityNuggetCrafting",
       "type": "recipe",
-      "sortid": 144,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infinity_nugget_crafting"
@@ -1492,7 +1492,7 @@
     {
       "name": "InfinityIngotCrafting",
       "type": "recipe",
-      "sortid": 145,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infinity_ingot_crafting"
@@ -1508,7 +1508,7 @@
     {
       "name": "StarFullrl",
       "type": "fuel",
-      "sortid": 146,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "star_fullrl"
@@ -1516,7 +1516,7 @@
     {
       "name": "StarFullCrafting",
       "type": "recipe",
-      "sortid": 147,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "star_full_crafting"
@@ -1524,23 +1524,15 @@
     {
       "name": "CrossbowOfTheInferno",
       "type": "rangeditem",
-      "sortid": 37,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crossbow_of_the_inferno"
     },
     {
-      "name": "SpaceTimeRipper",
-      "type": "rangeditem",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "space_time_ripper"
-    },
-    {
       "name": "Mendallow",
       "type": "procedure",
-      "sortid": 148,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mendallow",
@@ -1556,7 +1548,7 @@
     {
       "name": "TripleNeutroncollectorgui",
       "type": "gui",
-      "sortid": 149,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "triple_neutroncollectorgui"
@@ -1564,7 +1556,7 @@
     {
       "name": "TripleNeutroncollectorTick",
       "type": "procedure",
-      "sortid": 150,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "triple_neutroncollector_tick",
@@ -1584,7 +1576,7 @@
     {
       "name": "QuadNeutroncollectorgui",
       "type": "gui",
-      "sortid": 151,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quad_neutroncollectorgui"
@@ -1592,7 +1584,7 @@
     {
       "name": "QuadNeutroncollectorTick",
       "type": "procedure",
-      "sortid": 152,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quad_neutroncollector_tick",
@@ -1676,7 +1668,7 @@
     {
       "name": "Singularityxjhj",
       "type": "item",
-      "sortid": 153,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "singularityxjhj"
@@ -1684,7 +1676,7 @@
     {
       "name": "TinIngot",
       "type": "item",
-      "sortid": 154,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_ingot",
@@ -1693,7 +1685,7 @@
     {
       "name": "TinOre",
       "type": "block",
-      "sortid": 155,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_ore",
@@ -1702,7 +1694,7 @@
     {
       "name": "TinBlock",
       "type": "block",
-      "sortid": 156,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_block",
@@ -1711,7 +1703,7 @@
     {
       "name": "TinOreBlockRecipe",
       "type": "recipe",
-      "sortid": 157,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_ore_block_recipe",
@@ -1720,7 +1712,7 @@
     {
       "name": "TinBlockOreRecipe",
       "type": "recipe",
-      "sortid": 158,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_block_ore_recipe",
@@ -1729,7 +1721,7 @@
     {
       "name": "TinOreSmelting",
       "type": "recipe",
-      "sortid": 159,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_ore_smelting",
@@ -1738,7 +1730,7 @@
     {
       "name": "Nc2",
       "type": "procedure",
-      "sortid": 160,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nc_2",
@@ -1758,7 +1750,7 @@
     {
       "name": "Singularityzsj",
       "type": "item",
-      "sortid": 161,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "singularityzsj"
@@ -1766,7 +1758,7 @@
     {
       "name": "Ncclose",
       "type": "procedure",
-      "sortid": 162,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ncclose",
@@ -1778,6 +1770,382 @@
           }
         ]
       }
+    },
+    {
+      "name": "LeadIngot",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ingot",
+      "path": "~/ores/2"
+    },
+    {
+      "name": "LeadOre",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ore",
+      "path": "~/ores/2"
+    },
+    {
+      "name": "LeadBlock",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_block",
+      "path": "~/ores/2"
+    },
+    {
+      "name": "LeadOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ore_block_recipe",
+      "path": "~/ores/2"
+    },
+    {
+      "name": "LeadBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_block_ore_recipe",
+      "path": "~/ores/2"
+    },
+    {
+      "name": "LeadOreSmelting",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ore_smelting",
+      "path": "~/ores/2"
+    },
+    {
+      "name": "SilverDust",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_dust",
+      "path": "~/ores/3"
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore",
+      "path": "~/ores/3"
+    },
+    {
+      "name": "SilverBlock",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block",
+      "path": "~/ores/3"
+    },
+    {
+      "name": "SilverOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_block_recipe",
+      "path": "~/ores/3"
+    },
+    {
+      "name": "SilverBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block_ore_recipe",
+      "path": "~/ores/3"
+    },
+    {
+      "name": "SilverOreSmelting",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_smelting",
+      "path": "~/ores/3"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot",
+      "path": "~/ores/3"
+    },
+    {
+      "name": "Ssddd",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ssddd",
+      "path": "~/ores/3"
+    },
+    {
+      "name": "FluxedIngot",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluxed_ingot",
+      "path": "~/ores/5"
+    },
+    {
+      "name": "FluxedOre",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluxed_ore",
+      "path": "~/ores/5"
+    },
+    {
+      "name": "FluxedBlock",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluxed_block",
+      "path": "~/ores/5"
+    },
+    {
+      "name": "FluxedOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluxed_ore_block_recipe",
+      "path": "~/ores/5"
+    },
+    {
+      "name": "FluxedBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluxed_block_ore_recipe",
+      "path": "~/ores/5"
+    },
+    {
+      "name": "FluxedOreSmelting",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluxed_ore_smelting",
+      "path": "~/ores/5"
+    },
+    {
+      "name": "PlatinumDust",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_dust",
+      "path": "~/ores/6"
+    },
+    {
+      "name": "PlatinumOre",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore",
+      "path": "~/ores/6"
+    },
+    {
+      "name": "PlatinumBlock",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_block",
+      "path": "~/ores/6"
+    },
+    {
+      "name": "PlatinumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore_block_recipe",
+      "path": "~/ores/6"
+    },
+    {
+      "name": "PlatinumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_block_ore_recipe",
+      "path": "~/ores/6"
+    },
+    {
+      "name": "PlatinumOreSmelting",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore_smelting",
+      "path": "~/ores/6"
+    },
+    {
+      "name": "Iridium",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iridium",
+      "path": "~/ores/7"
+    },
+    {
+      "name": "IridiumOre",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iridium_ore",
+      "path": "~/ores/7"
+    },
+    {
+      "name": "IridiumBlock",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iridium_block",
+      "path": "~/ores/7"
+    },
+    {
+      "name": "IridiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iridium_ore_block_recipe",
+      "path": "~/ores/7"
+    },
+    {
+      "name": "IridiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iridium_block_ore_recipe",
+      "path": "~/ores/7"
+    },
+    {
+      "name": "IridiumOreSmelting",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iridium_ore_smelting",
+      "path": "~/ores/7"
+    },
+    {
+      "name": "Orespng",
+      "type": "item",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orespng",
+      "path": "~/ores"
+    },
+    {
+      "name": "ORES",
+      "type": "tab",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores",
+      "path": "~/ores"
+    },
+    {
+      "name": "Nickel",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel",
+      "path": "~/ores/4"
+    },
+    {
+      "name": "NickelOre",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_ore",
+      "path": "~/ores/4"
+    },
+    {
+      "name": "NickelBlock",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_block",
+      "path": "~/ores/4"
+    },
+    {
+      "name": "NickelOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_ore_block_recipe",
+      "path": "~/ores/4"
+    },
+    {
+      "name": "NickelBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_block_ore_recipe",
+      "path": "~/ores/4"
+    },
+    {
+      "name": "NickelOreSmelting",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_ore_smelting",
+      "path": "~/ores/4"
+    },
+    {
+      "name": "SpaceTimeRipper",
+      "type": "tool",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_time_ripper"
+    },
+    {
+      "name": "Color1",
+      "type": "code",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "color_1"
     }
   ],
   "variable_elements": [
@@ -1814,20 +2182,24 @@
       "block.avaritia_lp.tin_block": "锡块",
       "block.avaritia.double_compressed_crafting_table": "二重压缩工作台",
       "item.avaritia_lp.singularityzsj": "§e奇点-紫水晶",
+      "item.avaritia_lp.platinum_dust": "铂粉",
       "item.avaritia_lp.copper_singularity": "§e奇点-铜",
       "item.avaritia.hoeofthe_green_earth": "§c地蕴复生之锄",
       "item.avaritia_lp.crystal_matrix_ingot": "§b水晶矩阵锭",
       "item.avaritia_lp.endest_pearl": "§b终望珍珠",
       "item.avaritia_lp.neutronium_armor_leggings": "§b中子素护腿",
       "item.avaritia.crystal_axe": "§b水晶矩阵斧",
-      "item.avaritia_lp.space_time_ripper": "§c时空撕裂之矢",
       "gamerule.worldBreakerBedrockBreak.description": "默认可以",
+      "item.avaritia_lp.space_time_ripper": "§c§k时空撕裂之矢",
       "item.avaritia_lp.redstone_singularity": "§e奇点-红石",
       "block.avaritia_lp.bbox_2": "压缩箱子",
       "item.avaritia_lp.infinity_ingot": "§c无尽之锭",
       "item.avaritia.diamond_lattice": "§e钻石晶格",
       "block.avaritia_lp.iinftybox": "§c§k无尽箱子",
+      "item.avaritia_lp.fluxed_ingot": "红石琥珀金锭",
       "item.avaritia_lp.infinity_armor_chestplate": "§c无尽胸甲",
+      "item.avaritia_lp.iridium": "铱宝石",
+      "block.avaritia_lp.nickel_ore": "镍矿",
       "item.avaritia.black_hole_spawn_egg": "Black Hole Spawn Egg",
       "item.avaritia.crystal_armor_helmet": "§b水晶矩阵头盔",
       "item.avaritia_lp.neutronium_ingot": "§b中子锭",
@@ -1836,6 +2208,7 @@
       "block.avaritia.extreme_crafting_table": "终极工作台",
       "block.avaritia.double_neutroncollector": "中子素收集器",
       "item.avaritia_lp.longbowofthe_heavens": "§c天堂陨落之弓",
+      "item.avaritia_lp.silver_ingot": "银锭",
       "item.avaritia_lp.cosmic_meatballs": "寰宇肉丸",
       "block.avaritia.crystal_matrix": "§b水晶矩阵块",
       "item.avaritia_lp.infinity_armor_boots": "§c无尽靴子",
@@ -1848,16 +2221,20 @@
       "item.avaritia_lp.neutronium_gear": "中子素齿轮",
       "item.avaritia.crystal_armor_boots": "§b水晶矩阵靴子",
       "item.avaritia_lp.infinity_nugget": "§c无尽粒",
-      "block.avaritia_lp.tin_ore": "§7锡矿",
+      "block.avaritia_lp.tin_ore": "锡矿",
       "item.avaritia.crystal_hoe": "§b水晶矩阵锄",
       "item.avaritia_lp.iron_singularity": "§e奇点-铁",
       "item.avaritia_lp.neutronium_nugget": "§b中子素颗粒",
       "item.avaritia_lp.black_hole_spawn_egg": "Black Hole Spawn Egg",
       "item.avaritia.longbowofthe_heavens": "§c天堂陨落之弓",
       "block.avaritia_lp.neutronium_compressor": "中子态素压缩机",
+      "block.avaritia_lp.nickel_block": "镍块",
+      "item.avaritia_lp.lead_ingot": "铅锭",
       "item.avaritia_lp.golden_singularity": "§e奇点-金",
       "item.avaritia_lp.lapis_singularity": "§e奇点-青金石",
+      "item.avaritia_lp.silver_dust": "银粉",
       "item.avaritia.infinity_armor_helmet": "§c无尽头盔",
+      "block.avaritia_lp.fluxed_block": "红石琥珀金块",
       "gamerule.world_breaker_bedrock_break": "Allow breacks bedrock with World Breacker",
       "item.avaritia.emerald_singularity": "§e奇点-绿宝石",
       "item.avaritia_lp.neutronium_sword": "§b中子素剑",
@@ -1868,6 +2245,7 @@
       "block.avaritia_lp.quad_neutroncollector": "中子素收集器",
       "block.avaritia.quad_neutroncollector": "中子素收集器",
       "item.avaritia.pileof_neutrons": "§b中子素尘埃",
+      "item.avaritia_lp.orespng": "Orespng",
       "item.avaritia.infinity_armor_boots": "§c无尽靴子",
       "item.avaritia.neutronium_armor_boots": "§b中子素靴子",
       "block.avaritia_lp.extreme_crafting_table": "终极工作台",
@@ -1878,11 +2256,15 @@
       "item.avaritia.neutronium_armor_helmet": "§b中子素头盔",
       "item.avaritia.endest_pearl": "§b终望珍珠",
       "item.avaritia_lp.nether_quartz_singularity": "§e奇点-石英",
-      "item.avaritia_lp.crossbow_of_the_inferno": "§c地狱升华之弩",
+      "block.avaritia_lp.platinum_block": "铂粉块",
+      "item.avaritia_lp.crossbow_of_the_inferno": "§c§k地狱升华之弩",
       "entity.avaritia.black_hole": "Black Hole",
+      "block.avaritia_lp.silver_block": "银块",
       "block.avaritia.infinity_block": "§c无尽之块",
+      "item.avaritia_lp.nickel": "镍石",
       "item.avaritia_lp.diamond_singularity": "§e奇点-钻石",
       "gamerule.neutroniumCompressorAmount.description": "压缩机所需材料个数",
+      "block.avaritia_lp.lead_ore": "铅矿",
       "item.avaritia_lp.crystal_sword": "§b水晶矩阵剑",
       "itemGroup.tabavaritiatab": "无尽贪婪",
       "item.avaritia_lp.iridium_singularity": "§e奇点-铱",
@@ -1897,6 +2279,7 @@
       "item.avaritia_lp.world_breaker": "§c世界崩解之镐",
       "item.avaritia_lp.neutronium_armor_boots": "§b中子素靴子",
       "item.avaritia.crystal_matrix_ingot": "§b水晶矩阵锭",
+      "block.avaritia_lp.platinum_ore": "铂矿",
       "gamerule.world_breaker_bedrock_break.description": "Allow breacks bedrock with World Breacker",
       "block.avaritia_lp.infinity_block": "§c无尽之块",
       "item.avaritia.neutronium_armor_leggings": "§b中子素护腿",
@@ -1905,13 +2288,16 @@
       "item.avaritia_lp.hoeofthe_green_earth": "§c地蕴复生之锄",
       "item.avaritia.neutronium_ingot": "§b中子锭",
       "item.avaritia.neutronium_axe": "§b中子素斧",
-      "item.avaritia_lp.tin_ingot": "§7锡锭",
+      "item.avaritia_lp.tin_ingot": "锡锭",
       "item.avaritia_lp.skullfire_sword": "§d炽焰之啄颅剑",
       "block.avaritia_lp.crystal_matrix": "§b水晶矩阵块",
       "item.avaritia.infinity_catalyst": "§d无尽催化剂",
       "item.avaritia.lapis_singularity": "§e奇点-青金石",
+      "block.avaritia_lp.iridium_ore": "铱矿",
       "block.avaritia.neutron_collector": "中子素收集器",
       "item.avaritia_lp.crystal_armor_boots": "§b水晶矩阵靴子",
+      "block.avaritia_lp.fluxed_ore": "红石琥珀金矿",
+      "block.avaritia_lp.iridium_block": "铱块",
       "item.avaritia.neutronium_pickaxe": "§b中子素镐",
       "item.avaritia.cosmic_meatballs": "寰宇肉丸",
       "block.avaritia.triple_neutroncollector": "中子素收集器",
@@ -1938,6 +2324,7 @@
       "item.avaritia.diamond_singularity": "§e奇点-钻石",
       "block.avaritia.neutronium_compressor": "中子态压缩机",
       "item.avaritia.record_fragment": "§c唱片碎片",
+      "block.avaritia_lp.lead_block": "铅块",
       "item.avaritia_lp.infinity_catalyst": "§d无尽催化剂",
       "item.avaritia.infinity_armor_leggings": "§c无尽护腿",
       "item.avaritia_lp.neutronium_armor_chestplate": "§b中子素胸甲",
@@ -1949,7 +2336,353 @@
       "item.avaritia.crystal_armor_chestplate": "§b水晶矩阵胸甲",
       "item.avaritia_lp.ultimate_stew": "超级煲",
       "item.avaritia.neutronium_nugget": "§b中子素颗粒",
+      "itemGroup.tabores": "更多矿石",
       "item.avaritia_lp.neutronium_pickaxe": "§b中子素镐",
+      "block.avaritia_lp.silver_ore": "银矿",
+      "block.avaritia_lp.triple_neutroncollector": "中子素收集器",
+      "item.avaritia_lp.emerald_singularity": "§e奇点-绿宝石",
+      "item.avaritia.crystal_armor_leggings": "§b水晶矩阵护腿",
+      "block.avaritia.neutronium_block": "§b中子素块",
+      "item.avaritia_lp.infinity_armor_helmet": "§c无尽头盔",
+      "item.avaritia_lp.platinum_singularity": "§e奇点-铂",
+      "item.avaritia.neutronium_hoe": "§b中子素锄",
+      "item.avaritia_lp.pileof_neutrons": "§b中子素尘埃"
+    },
+    "zh_cn": {
+      "block.avaritia_lp.neutronium_block": "§b中子素块",
+      "item.avaritia_lp.diamond_lattice": "§e钻石晶格",
+      "block.avaritia_lp.tin_block": "锡块",
+      "block.avaritia.double_compressed_crafting_table": "二重压缩工作台",
+      "item.avaritia_lp.singularityzsj": "§e奇点-紫水晶",
+      "item.avaritia_lp.platinum_dust": "铂粉",
+      "item.avaritia_lp.copper_singularity": "§e奇点-铜",
+      "item.avaritia.hoeofthe_green_earth": "§c地蕴复生之锄",
+      "item.avaritia_lp.crystal_matrix_ingot": "§b水晶矩阵锭",
+      "item.avaritia_lp.endest_pearl": "§b终望珍珠",
+      "item.avaritia_lp.neutronium_armor_leggings": "§b中子素护腿",
+      "item.avaritia.crystal_axe": "§b水晶矩阵斧",
+      "gamerule.worldBreakerBedrockBreak.description": "默认可以",
+      "item.avaritia_lp.space_time_ripper": "§c§k时空撕裂之矢",
+      "item.avaritia_lp.redstone_singularity": "§e奇点-红石",
+      "block.avaritia_lp.bbox_2": "压缩箱子",
+      "item.avaritia_lp.infinity_ingot": "§c无尽之锭",
+      "item.avaritia.diamond_lattice": "§e钻石晶格",
+      "block.avaritia_lp.iinftybox": "§c§k无尽箱子",
+      "item.avaritia_lp.fluxed_ingot": "红石琥珀金锭",
+      "item.avaritia_lp.infinity_armor_chestplate": "§c无尽胸甲",
+      "item.avaritia_lp.iridium": "铱宝石",
+      "block.avaritia_lp.nickel_ore": "镍矿",
+      "item.avaritia.black_hole_spawn_egg": "Black Hole Spawn Egg",
+      "item.avaritia.crystal_armor_helmet": "§b水晶矩阵头盔",
+      "item.avaritia_lp.neutronium_ingot": "§b中子锭",
+      "item.avaritia_lp.silver_singularity": "§e奇点-银",
+      "item.avaritia_lp.natures_ruin": "§c自然荒芜之斧",
+      "block.avaritia.extreme_crafting_table": "终极工作台",
+      "block.avaritia.double_neutroncollector": "中子素收集器",
+      "item.avaritia_lp.longbowofthe_heavens": "§c天堂陨落之弓",
+      "item.avaritia_lp.silver_ingot": "银锭",
+      "item.avaritia_lp.cosmic_meatballs": "寰宇肉丸",
+      "block.avaritia.crystal_matrix": "§b水晶矩阵块",
+      "item.avaritia_lp.infinity_armor_boots": "§c无尽靴子",
+      "item.avaritia.infinity_ingot": "§c无尽之锭",
+      "item.avaritia.ultimate_stew": "超级煲",
+      "item.avaritia_lp.crystal_pickaxe": "§b水晶矩阵镐",
+      "item.avaritia.world_breaker": "§c世界崩解之镐",
+      "item.avaritia.crystal_sword": "§b水晶矩阵剑",
+      "block.avaritia.bbox_2": "压缩箱子",
+      "item.avaritia_lp.neutronium_gear": "中子素齿轮",
+      "item.avaritia.crystal_armor_boots": "§b水晶矩阵靴子",
+      "item.avaritia_lp.infinity_nugget": "§c无尽粒",
+      "block.avaritia_lp.tin_ore": "锡矿",
+      "item.avaritia.crystal_hoe": "§b水晶矩阵锄",
+      "item.avaritia_lp.iron_singularity": "§e奇点-铁",
+      "item.avaritia_lp.neutronium_nugget": "§b中子素颗粒",
+      "item.avaritia_lp.black_hole_spawn_egg": "Black Hole Spawn Egg",
+      "item.avaritia.longbowofthe_heavens": "§c天堂陨落之弓",
+      "block.avaritia_lp.neutronium_compressor": "中子态素压缩机",
+      "block.avaritia_lp.nickel_block": "镍块",
+      "item.avaritia_lp.lead_ingot": "铅锭",
+      "item.avaritia_lp.golden_singularity": "§e奇点-金",
+      "item.avaritia_lp.lapis_singularity": "§e奇点-青金石",
+      "item.avaritia_lp.silver_dust": "银粉",
+      "item.avaritia.infinity_armor_helmet": "§c无尽头盔",
+      "block.avaritia_lp.fluxed_block": "红石琥珀金块",
+      "gamerule.world_breaker_bedrock_break": "Allow breacks bedrock with World Breacker",
+      "item.avaritia.emerald_singularity": "§e奇点-绿宝石",
+      "item.avaritia_lp.neutronium_sword": "§b中子素剑",
+      "item.avaritia_lp.neutronium_hoe": "§b中子素锄",
+      "block.avaritia_lp.double_neutroncollector": "中子素收集器",
+      "item.avaritia.swordofthe_cosmos": "§c寰宇支配之剑",
+      "entity.avaritia_lp.black_hole": "Black Hole",
+      "block.avaritia_lp.quad_neutroncollector": "中子素收集器",
+      "block.avaritia.quad_neutroncollector": "中子素收集器",
+      "item.avaritia.pileof_neutrons": "§b中子素尘埃",
+      "item.avaritia_lp.orespng": "Orespng",
+      "item.avaritia.infinity_armor_boots": "§c无尽靴子",
+      "item.avaritia.neutronium_armor_boots": "§b中子素靴子",
+      "block.avaritia_lp.extreme_crafting_table": "终极工作台",
+      "item.avaritia_lp.neutronium_axe": "§b中子素斧",
+      "block.avaritia_lp.double_compressed_crafting_table": "二重压缩工作台",
+      "item.avaritia.natures_ruin": "§c自然荒芜之斧",
+      "item.avaritia.neutronium_shovel": "§b中子素铲",
+      "item.avaritia.neutronium_armor_helmet": "§b中子素头盔",
+      "item.avaritia.endest_pearl": "§b终望珍珠",
+      "item.avaritia_lp.nether_quartz_singularity": "§e奇点-石英",
+      "block.avaritia_lp.platinum_block": "铂粉块",
+      "item.avaritia_lp.crossbow_of_the_inferno": "§c§k地狱升华之弩",
+      "entity.avaritia.black_hole": "Black Hole",
+      "block.avaritia_lp.silver_block": "银块",
+      "block.avaritia.infinity_block": "§c无尽之块",
+      "item.avaritia_lp.nickel": "镍石",
+      "item.avaritia_lp.diamond_singularity": "§e奇点-钻石",
+      "gamerule.neutroniumCompressorAmount.description": "压缩机所需材料个数",
+      "block.avaritia_lp.lead_ore": "铅矿",
+      "item.avaritia_lp.crystal_sword": "§b水晶矩阵剑",
+      "itemGroup.tabavaritiatab": "无尽贪婪",
+      "item.avaritia_lp.iridium_singularity": "§e奇点-铱",
+      "item.avaritia.planet_eater": "§c星球吞噬之铲",
+      "item.avaritia_lp.crystal_hoe": "§b水晶矩阵锄",
+      "item.avaritia_lp.crystal_armor_leggings": "§b水晶矩阵护腿",
+      "item.avaritia_lp.record_fragment": "§c唱片碎片",
+      "item.avaritia_lp.tin_singularity": "§e奇点-锡",
+      "item.avaritia.skullfire_sword": "§d炽焰之啄颅剑",
+      "item.avaritia.infinity_armor_chestplate": "§c无尽胸甲",
+      "item.avaritia_lp.crystal_armor_helmet": "§b水晶矩阵头盔",
+      "item.avaritia_lp.world_breaker": "§c世界崩解之镐",
+      "item.avaritia_lp.neutronium_armor_boots": "§b中子素靴子",
+      "item.avaritia.crystal_matrix_ingot": "§b水晶矩阵锭",
+      "block.avaritia_lp.platinum_ore": "铂矿",
+      "gamerule.world_breaker_bedrock_break.description": "Allow breacks bedrock with World Breacker",
+      "block.avaritia_lp.infinity_block": "§c无尽之块",
+      "item.avaritia.neutronium_armor_leggings": "§b中子素护腿",
+      "item.avaritia.crystal_shovel": "§b水晶矩阵铲",
+      "item.avaritia_lp.neutronium_armor_helmet": "§b中子素头盔",
+      "item.avaritia_lp.hoeofthe_green_earth": "§c地蕴复生之锄",
+      "item.avaritia.neutronium_ingot": "§b中子锭",
+      "item.avaritia.neutronium_axe": "§b中子素斧",
+      "item.avaritia_lp.tin_ingot": "锡锭",
+      "item.avaritia_lp.skullfire_sword": "§d炽焰之啄颅剑",
+      "block.avaritia_lp.crystal_matrix": "§b水晶矩阵块",
+      "item.avaritia.infinity_catalyst": "§d无尽催化剂",
+      "item.avaritia.lapis_singularity": "§e奇点-青金石",
+      "block.avaritia_lp.iridium_ore": "铱矿",
+      "block.avaritia.neutron_collector": "中子素收集器",
+      "item.avaritia_lp.crystal_armor_boots": "§b水晶矩阵靴子",
+      "block.avaritia_lp.fluxed_ore": "红石琥珀金矿",
+      "block.avaritia_lp.iridium_block": "铱块",
+      "item.avaritia.neutronium_pickaxe": "§b中子素镐",
+      "item.avaritia.cosmic_meatballs": "寰宇肉丸",
+      "block.avaritia.triple_neutroncollector": "中子素收集器",
+      "item.avaritia_lp.fluxed_singularity": "§e奇点-红石琥珀金",
+      "item.avaritia.golden_singularity": "§e奇点-金",
+      "item.avaritia_lp.lead_singularity": "§e奇点-铅",
+      "item.avaritia_lp.crystal_shovel": "§b水晶矩阵铲",
+      "block.avaritia.iinftybox": "§c无尽箱子",
+      "block.avaritia_lp.neutron_collector": "中子素收集器",
+      "item.avaritia_lp.swordofthe_cosmos": "§c寰宇支配之剑",
+      "item.avaritia.neutronium_armor_chestplate": "§b中子素胸甲",
+      "block.avaritia.compressed_crafting_table": "压缩工作台",
+      "item.avaritia_lp.planet_eater": "§c星球吞噬之铲",
+      "item.avaritia.redstone_singularity": "§e奇点-红石",
+      "gamerule.neutroniumCompressorAmount": "压缩机材料",
+      "gamerule.worldBreakerBedrockBreak": "世界崩解之稿能否破坏基岩",
+      "item.avaritia.crystal_pickaxe": "§b水晶矩阵镐",
+      "item.avaritia.neutronium_sword": "§b中子素剑",
+      "item.avaritia.iron_singularity": "§e奇点-铁",
+      "item.avaritia_lp.infinity_armor_leggings": "§c无尽护腿",
+      "item.avaritia_lp.crystal_armor_chestplate": "§b水晶矩阵胸甲",
+      "item.avaritia_lp.singularityxjhj": "§e奇点-下界合金",
+      "item.avaritia_lp.neutronium_shovel": "§b中子素铲",
+      "item.avaritia.diamond_singularity": "§e奇点-钻石",
+      "block.avaritia.neutronium_compressor": "中子态压缩机",
+      "item.avaritia.record_fragment": "§c唱片碎片",
+      "block.avaritia_lp.lead_block": "铅块",
+      "item.avaritia_lp.infinity_catalyst": "§d无尽催化剂",
+      "item.avaritia.infinity_armor_leggings": "§c无尽护腿",
+      "item.avaritia_lp.neutronium_armor_chestplate": "§b中子素胸甲",
+      "item.avaritia_lp.star_full": "§d恒星燃料",
+      "block.avaritia_lp.compressed_crafting_table": "压缩工作台",
+      "item.avaritia_lp.crystal_axe": "§b水晶矩阵斧",
+      "item.avaritia.nether_quartz_singularity": "§e奇点-石英",
+      "item.avaritia_lp.nickel_singularity": "§e奇点-镍",
+      "item.avaritia.crystal_armor_chestplate": "§b水晶矩阵胸甲",
+      "item.avaritia_lp.ultimate_stew": "超级煲",
+      "item.avaritia.neutronium_nugget": "§b中子素颗粒",
+      "itemGroup.tabores": "更多矿石",
+      "item.avaritia_lp.neutronium_pickaxe": "§b中子素镐",
+      "block.avaritia_lp.silver_ore": "银矿",
+      "block.avaritia_lp.triple_neutroncollector": "中子素收集器",
+      "item.avaritia_lp.emerald_singularity": "§e奇点-绿宝石",
+      "item.avaritia.crystal_armor_leggings": "§b水晶矩阵护腿",
+      "block.avaritia.neutronium_block": "§b中子素块",
+      "item.avaritia_lp.infinity_armor_helmet": "§c无尽头盔",
+      "item.avaritia_lp.platinum_singularity": "§e奇点-铂",
+      "item.avaritia.neutronium_hoe": "§b中子素锄",
+      "item.avaritia_lp.pileof_neutrons": "§b中子素尘埃"
+    },
+    "ja_jp": {
+      "block.avaritia_lp.neutronium_block": "§b中子素块",
+      "item.avaritia_lp.diamond_lattice": "§e钻石晶格",
+      "block.avaritia_lp.tin_block": "锡块",
+      "block.avaritia.double_compressed_crafting_table": "二重压缩工作台",
+      "item.avaritia_lp.singularityzsj": "§e奇点-紫水晶",
+      "item.avaritia_lp.platinum_dust": "铂粉",
+      "item.avaritia.hoeofthe_green_earth": "§c地蕴复生之锄",
+      "item.avaritia_lp.copper_singularity": "§e奇点-铜",
+      "item.avaritia_lp.endest_pearl": "§b终望珍珠",
+      "item.avaritia_lp.crystal_matrix_ingot": "§b水晶矩阵锭",
+      "item.avaritia_lp.neutronium_armor_leggings": "§b中子素护腿",
+      "item.avaritia.crystal_axe": "§b水晶矩阵斧",
+      "gamerule.worldBreakerBedrockBreak.description": "默认可以",
+      "item.avaritia_lp.space_time_ripper": "§c§k时空撕裂之矢",
+      "item.avaritia_lp.redstone_singularity": "§e奇点-红石",
+      "block.avaritia_lp.bbox_2": "压缩箱子",
+      "item.avaritia_lp.infinity_ingot": "§c无尽之锭",
+      "item.avaritia.diamond_lattice": "§e钻石晶格",
+      "block.avaritia_lp.iinftybox": "§c§k无尽箱子",
+      "item.avaritia_lp.fluxed_ingot": "红石琥珀金锭",
+      "item.avaritia_lp.infinity_armor_chestplate": "§c无尽胸甲",
+      "item.avaritia_lp.iridium": "铱宝石",
+      "block.avaritia_lp.nickel_ore": "镍矿",
+      "item.avaritia.black_hole_spawn_egg": "Black Hole Spawn Egg",
+      "item.avaritia.crystal_armor_helmet": "§b水晶矩阵头盔",
+      "item.avaritia_lp.neutronium_ingot": "§b中子锭",
+      "item.avaritia_lp.silver_singularity": "§e奇点-银",
+      "item.avaritia_lp.natures_ruin": "§c自然荒芜之斧",
+      "block.avaritia.extreme_crafting_table": "终极工作台",
+      "block.avaritia.double_neutroncollector": "中子素收集器",
+      "item.avaritia_lp.longbowofthe_heavens": "§c天堂陨落之弓",
+      "item.avaritia_lp.silver_ingot": "银锭",
+      "item.avaritia_lp.cosmic_meatballs": "寰宇肉丸",
+      "block.avaritia.crystal_matrix": "§b水晶矩阵块",
+      "item.avaritia_lp.infinity_armor_boots": "§c无尽靴子",
+      "item.avaritia.infinity_ingot": "§c无尽之锭",
+      "item.avaritia.ultimate_stew": "超级煲",
+      "item.avaritia_lp.crystal_pickaxe": "§b水晶矩阵镐",
+      "item.avaritia.world_breaker": "§c世界崩解之镐",
+      "item.avaritia.crystal_sword": "§b水晶矩阵剑",
+      "block.avaritia.bbox_2": "压缩箱子",
+      "item.avaritia_lp.neutronium_gear": "中子素齿轮",
+      "item.avaritia.crystal_armor_boots": "§b水晶矩阵靴子",
+      "item.avaritia_lp.infinity_nugget": "§c无尽粒",
+      "block.avaritia_lp.tin_ore": "锡矿",
+      "item.avaritia.crystal_hoe": "§b水晶矩阵锄",
+      "item.avaritia_lp.iron_singularity": "§e奇点-铁",
+      "item.avaritia_lp.neutronium_nugget": "§b中子素颗粒",
+      "item.avaritia_lp.black_hole_spawn_egg": "Black Hole Spawn Egg",
+      "item.avaritia.longbowofthe_heavens": "§c天堂陨落之弓",
+      "block.avaritia_lp.neutronium_compressor": "中子态素压缩机",
+      "block.avaritia_lp.nickel_block": "镍块",
+      "item.avaritia_lp.lead_ingot": "铅锭",
+      "item.avaritia_lp.golden_singularity": "§e奇点-金",
+      "item.avaritia_lp.lapis_singularity": "§e奇点-青金石",
+      "item.avaritia_lp.silver_dust": "银粉",
+      "item.avaritia.infinity_armor_helmet": "§c无尽头盔",
+      "block.avaritia_lp.fluxed_block": "红石琥珀金块",
+      "gamerule.world_breaker_bedrock_break": "Allow breacks bedrock with World Breacker",
+      "item.avaritia.emerald_singularity": "§e奇点-绿宝石",
+      "item.avaritia_lp.neutronium_sword": "§b中子素剑",
+      "item.avaritia_lp.neutronium_hoe": "§b中子素锄",
+      "block.avaritia_lp.double_neutroncollector": "中子素收集器",
+      "item.avaritia.swordofthe_cosmos": "§c寰宇支配之剑",
+      "entity.avaritia_lp.black_hole": "Black Hole",
+      "block.avaritia_lp.quad_neutroncollector": "中子素收集器",
+      "block.avaritia.quad_neutroncollector": "中子素收集器",
+      "item.avaritia.pileof_neutrons": "§b中子素尘埃",
+      "item.avaritia_lp.orespng": "Orespng",
+      "item.avaritia.infinity_armor_boots": "§c无尽靴子",
+      "item.avaritia.neutronium_armor_boots": "§b中子素靴子",
+      "block.avaritia_lp.extreme_crafting_table": "终极工作台",
+      "item.avaritia_lp.neutronium_axe": "§b中子素斧",
+      "block.avaritia_lp.double_compressed_crafting_table": "二重压缩工作台",
+      "item.avaritia.natures_ruin": "§c自然荒芜之斧",
+      "item.avaritia.neutronium_shovel": "§b中子素铲",
+      "item.avaritia.neutronium_armor_helmet": "§b中子素头盔",
+      "item.avaritia.endest_pearl": "§b终望珍珠",
+      "item.avaritia_lp.nether_quartz_singularity": "§e奇点-石英",
+      "block.avaritia_lp.platinum_block": "铂粉块",
+      "item.avaritia_lp.crossbow_of_the_inferno": "§c§k地狱升华之弩",
+      "entity.avaritia.black_hole": "Black Hole",
+      "block.avaritia_lp.silver_block": "银块",
+      "block.avaritia.infinity_block": "§c无尽之块",
+      "item.avaritia_lp.nickel": "镍石",
+      "item.avaritia_lp.diamond_singularity": "§e奇点-钻石",
+      "gamerule.neutroniumCompressorAmount.description": "压缩机所需材料个数",
+      "block.avaritia_lp.lead_ore": "铅矿",
+      "item.avaritia_lp.crystal_sword": "§b水晶矩阵剑",
+      "itemGroup.tabavaritiatab": "无尽贪婪",
+      "item.avaritia_lp.iridium_singularity": "§e奇点-铱",
+      "item.avaritia.planet_eater": "§c星球吞噬之铲",
+      "item.avaritia_lp.crystal_hoe": "§b水晶矩阵锄",
+      "item.avaritia_lp.crystal_armor_leggings": "§b水晶矩阵护腿",
+      "item.avaritia_lp.record_fragment": "§c唱片碎片",
+      "item.avaritia_lp.tin_singularity": "§e奇点-锡",
+      "item.avaritia.skullfire_sword": "§d炽焰之啄颅剑",
+      "item.avaritia.infinity_armor_chestplate": "§c无尽胸甲",
+      "item.avaritia_lp.crystal_armor_helmet": "§b水晶矩阵头盔",
+      "item.avaritia_lp.world_breaker": "§c世界崩解之镐",
+      "item.avaritia_lp.neutronium_armor_boots": "§b中子素靴子",
+      "item.avaritia.crystal_matrix_ingot": "§b水晶矩阵锭",
+      "block.avaritia_lp.platinum_ore": "铂矿",
+      "gamerule.world_breaker_bedrock_break.description": "Allow breacks bedrock with World Breacker",
+      "block.avaritia_lp.infinity_block": "§c无尽之块",
+      "item.avaritia.neutronium_armor_leggings": "§b中子素护腿",
+      "item.avaritia.crystal_shovel": "§b水晶矩阵铲",
+      "item.avaritia_lp.neutronium_armor_helmet": "§b中子素头盔",
+      "item.avaritia_lp.hoeofthe_green_earth": "§c地蕴复生之锄",
+      "item.avaritia.neutronium_ingot": "§b中子锭",
+      "item.avaritia.neutronium_axe": "§b中子素斧",
+      "item.avaritia_lp.tin_ingot": "锡锭",
+      "item.avaritia_lp.skullfire_sword": "§d炽焰之啄颅剑",
+      "block.avaritia_lp.crystal_matrix": "§b水晶矩阵块",
+      "item.avaritia.infinity_catalyst": "§d无尽催化剂",
+      "item.avaritia.lapis_singularity": "§e奇点-青金石",
+      "block.avaritia_lp.iridium_ore": "铱矿",
+      "block.avaritia.neutron_collector": "中子素收集器",
+      "item.avaritia_lp.crystal_armor_boots": "§b水晶矩阵靴子",
+      "block.avaritia_lp.fluxed_ore": "红石琥珀金矿",
+      "block.avaritia_lp.iridium_block": "铱块",
+      "item.avaritia.neutronium_pickaxe": "§b中子素镐",
+      "item.avaritia.cosmic_meatballs": "寰宇肉丸",
+      "block.avaritia.triple_neutroncollector": "中子素收集器",
+      "item.avaritia_lp.fluxed_singularity": "§e奇点-红石琥珀金",
+      "item.avaritia.golden_singularity": "§e奇点-金",
+      "item.avaritia_lp.lead_singularity": "§e奇点-铅",
+      "item.avaritia_lp.crystal_shovel": "§b水晶矩阵铲",
+      "block.avaritia.iinftybox": "§c无尽箱子",
+      "block.avaritia_lp.neutron_collector": "中子素收集器",
+      "item.avaritia_lp.swordofthe_cosmos": "§c寰宇支配之剑",
+      "item.avaritia.neutronium_armor_chestplate": "§b中子素胸甲",
+      "block.avaritia.compressed_crafting_table": "压缩工作台",
+      "item.avaritia_lp.planet_eater": "§c星球吞噬之铲",
+      "item.avaritia.redstone_singularity": "§e奇点-红石",
+      "gamerule.neutroniumCompressorAmount": "压缩机材料",
+      "gamerule.worldBreakerBedrockBreak": "世界崩解之稿能否破坏基岩",
+      "item.avaritia.crystal_pickaxe": "§b水晶矩阵镐",
+      "item.avaritia.neutronium_sword": "§b中子素剑",
+      "item.avaritia.iron_singularity": "§e奇点-铁",
+      "item.avaritia_lp.infinity_armor_leggings": "§c无尽护腿",
+      "item.avaritia_lp.crystal_armor_chestplate": "§b水晶矩阵胸甲",
+      "item.avaritia_lp.singularityxjhj": "§e奇点-下界合金",
+      "item.avaritia_lp.neutronium_shovel": "§b中子素铲",
+      "item.avaritia.diamond_singularity": "§e奇点-钻石",
+      "block.avaritia.neutronium_compressor": "中子态压缩机",
+      "item.avaritia.record_fragment": "§c唱片碎片",
+      "block.avaritia_lp.lead_block": "铅块",
+      "item.avaritia_lp.infinity_catalyst": "§d无尽催化剂",
+      "item.avaritia.infinity_armor_leggings": "§c无尽护腿",
+      "item.avaritia_lp.neutronium_armor_chestplate": "§b中子素胸甲",
+      "item.avaritia_lp.star_full": "§d恒星燃料",
+      "block.avaritia_lp.compressed_crafting_table": "压缩工作台",
+      "item.avaritia_lp.crystal_axe": "§b水晶矩阵斧",
+      "item.avaritia.nether_quartz_singularity": "§e奇点-石英",
+      "item.avaritia_lp.nickel_singularity": "§e奇点-镍",
+      "item.avaritia.crystal_armor_chestplate": "§b水晶矩阵胸甲",
+      "item.avaritia_lp.ultimate_stew": "超级煲",
+      "item.avaritia.neutronium_nugget": "§b中子素颗粒",
+      "itemGroup.tabores": "更多矿石",
+      "item.avaritia_lp.neutronium_pickaxe": "§b中子素镐",
+      "block.avaritia_lp.silver_ore": "银矿",
       "block.avaritia_lp.triple_neutroncollector": "中子素收集器",
       "item.avaritia_lp.emerald_singularity": "§e奇点-绿宝石",
       "item.avaritia.crystal_armor_leggings": "§b水晶矩阵护腿",
@@ -1977,6 +2710,30 @@
           {
             "name": "1",
             "children": []
+          },
+          {
+            "name": "2",
+            "children": []
+          },
+          {
+            "name": "3",
+            "children": []
+          },
+          {
+            "name": "4",
+            "children": []
+          },
+          {
+            "name": "5",
+            "children": []
+          },
+          {
+            "name": "6",
+            "children": []
+          },
+          {
+            "name": "7",
+            "children": []
           }
         ]
       }
@@ -1985,7 +2742,7 @@
   "workspaceSettings": {
     "modid": "avaritia_lp",
     "modName": "Avaritia Lite Plus",
-    "version": "1.6.3",
+    "version": "2.0.0",
     "author": "Bullfighter, MCreator,Fwjeg",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",

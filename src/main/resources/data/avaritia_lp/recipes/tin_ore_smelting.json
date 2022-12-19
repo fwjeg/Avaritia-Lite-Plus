@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "experience": 0.7,
-  "cookingtime": 200,
+  "cookingtime": 3,
   "ingredient": {
     "item": "avaritia_lp:tin_ore"
   },

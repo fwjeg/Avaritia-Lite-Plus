@@ -1,40 +1,30 @@
 {
   "_fv": 28,
-  "_type": "rangeditem",
+  "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "str",
     "customModelName": "Normal",
-    "name": "§c时空撕裂之矢",
+    "name": "§c§k时空撕裂之矢",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:Avaritiatab"
+      "value": "TOOLS"
     },
-    "stackSize": 64,
-    "ammoItem": {
-      "value": ""
-    },
-    "shootConstantly": false,
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 4.0,
+    "attackSpeed": 1.5,
+    "enchantability": 300,
+    "damageVsEntity": 99.0,
     "usageCount": 100,
-    "actionSound": {
-      "value": "entity.arrow.shoot"
-    },
+    "blocksAffected": [],
     "hasGlow": false,
-    "animation": "spear",
-    "enableMeleeDamage": false,
-    "damageVsEntity": 0.0,
-    "onRangedItemUsed": {
-      "name": "Mendallow"
-    },
-    "bulletPower": 10.0,
-    "bulletDamage": 9999.0,
-    "bulletKnockback": 10,
-    "bulletParticles": true,
-    "bulletIgnitesFire": false,
-    "bulletItemTexture": {
-      "value": "CUSTOM:InfinityCatalyst"
-    },
-    "bulletModel": "Default",
-    "customBulletModelTexture": ""
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "Mend"
+    }
   }
 }

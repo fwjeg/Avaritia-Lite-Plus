@@ -4,7 +4,19 @@
     "avaritia_lp:extreme_crafting_table",
     "avaritia_lp:neutronium_compressor",
     "avaritia_lp:neutronium_block",
+    "avaritia_lp:tin_block",
+    "avaritia_lp:lead_block",
+    "avaritia_lp:silver_block",
+    "avaritia_lp:fluxed_block",
+    "avaritia_lp:platinum_block",
+    "avaritia_lp:iridium_block",
+    "avaritia_lp:nickel_block",
     "avaritia_lp:tin_ore",
-    "avaritia_lp:tin_block"
+    "avaritia_lp:lead_ore",
+    "avaritia_lp:silver_ore",
+    "avaritia_lp:fluxed_ore",
+    "avaritia_lp:platinum_ore",
+    "avaritia_lp:iridium_ore",
+    "avaritia_lp:nickel_ore"
   ]
 }

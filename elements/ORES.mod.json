@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "更多矿石",
+    "icon": {
+      "value": "CUSTOM:Orespng"
+    },
+    "showSearch": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 3,
+  "cookingtime": 20,
+  "ingredient": {
+    "item": "avaritia_lp:silver_ore"
+  },
+  "result": {
+    "item": "avaritia_lp:silver_ingot"
+  }
+}

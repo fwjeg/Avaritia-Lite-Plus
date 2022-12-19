@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "avaritia_lp:iridium_block"
+    }
+  ],
+  "result": {
+    "item": "avaritia_lp:iridium",
+    "count": 9
+  }
+}

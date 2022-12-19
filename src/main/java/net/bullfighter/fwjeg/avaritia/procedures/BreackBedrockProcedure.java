@@ -35,7 +35,7 @@ public class BreackBedrockProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (world.getLevelData().getGameRules().getBoolean(AvaritiaLpModGameRules.WORLD_BREAKER_BEDROCK_BREAK)
+		if (world.getLevelData().getGameRules().getBoolean(AvaritiaLpModGameRules.WORLDBREAKERBEDROCKBREAK)
 				&& (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
 						.getItem() == AvaritiaLpModItems.WORLD_BREAKER
 				&& (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.BEDROCK) {
